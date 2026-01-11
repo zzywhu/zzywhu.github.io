@@ -19,7 +19,7 @@ redirect_from:
 
 Zhiyu Zhou received the B.E. degree from Wuhan University, Wuhan, China, in 2024, where he is currently pursuing the Ph.D. degree with the School of Remote Sensing and Information Engineering. 
 
-My research interest includes robotics, multi-sensor fusion, SLAM, computer vision, and their applications. I have published more than 10 papers at the top robotics conference and journals with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes robotics, multi-sensor fusion, SLAM, computer vision, and their applications. I have published more than 10 papers at the top robotics conference and journals with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>google scholar citations <strong><span id='total_cit'>10+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
