@@ -23,7 +23,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.02*: &nbsp;🎉🎉 EasyColor was accepted by RA-L.
 
 # 📝 Publications 
 
