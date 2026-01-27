@@ -39,7 +39,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2024</div><img src='images/TBD(RAL)/demo.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2024</div><img src='images/TBD(RAL)/out.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World](https://ieeexplore.ieee.org/document/10497093)
