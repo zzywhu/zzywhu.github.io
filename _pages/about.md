@@ -57,14 +57,19 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Nov 2025*: 16th International Micro Aerial Vehicle Competition (IMAV 2025), **1st Prize**, Universidad de las Américas Puebla.
+- *Jun 2024*: Outstanding Undergraduate Graduate, Wuhan University.
+- *Jun 2024*: Outstanding Undergraduate Thesis, Wuhan University.
+- *Sep 2024*: "ZhiZhuo" Scholarship, Wuhan University (10,000 CNY).
+- *Oct 2024*: Graduate Overseas Exchange Funding Scholarship, Wuhan University (8,000 CNY).
+- *Dec 2023*: National Grand Prize, 18th "Challenge Cup" (50,000 CNY).
 
 # 📖 Educations
 - *2024.06 - 2029.04 (now)*, PhD, Wuhan University.
 - *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.10*, IROS Oral presentation. 
 
 # 💻 Internships
-- *2025.05 - 2025.11*, AGIBOT, China.
+- *2025.05 - 2025.11*, AGIBOT(智元机器人), China.
