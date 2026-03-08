@@ -23,7 +23,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
-- *2026.02*: EasyCalib received a Reject & Resubmit (TIM) decision from IEEE TIM.
+- *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
 - *2026.02*: &nbsp;🎉🎉 EasyColor is accepted to RA-L.
 
 # 📝 Publications 
@@ -31,7 +31,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/EasyColor(RAL)/out.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[EasyColor:Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration](https://ieeexplore.ieee.org/document/10497093)
+[EasyColor:Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration](https://ieeexplore.ieee.org/abstract/document/11373843)
 
 **Zhiyu Zhou**, Zhi Gao, Yong Li, Hang Zhen
 
