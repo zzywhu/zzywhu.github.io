@@ -23,6 +23,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
+- *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
 - *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
 - *2026.02*: &nbsp;🎉🎉 EasyColor is accepted to RA-L.
 
@@ -53,7 +54,13 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 </div>
 
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration](https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49), Jingshi Wang, Zhipeng Lin, **Zhiyu Zhou**, et al, **ELECTRONICS LETTERS 2025**
+
+- [Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation](https://ieeexplore.ieee.org/document/11127522), Xinyu Guo, Zhi Gao, **Zhiyu Zhou**, et al, **ICRA 2025**
+
+- [Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration](https://ieeexplore.ieee.org/document/10802610), Jialiang Wang, Zhi Gao, Zhipeng Lin, **Zhiyu Zhou**, et al, **IROS 2024**
+
+- [A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments](https://ieeexplore.ieee.org/document/10591868), Xuhui Zhao, Zhi Gao, Jialiang Wang, et al, **ICCA 2024**
 
 # 🎖 Honors and Awards
 - *Nov 2025*: 16th International Micro Aerial Vehicle Competition (IMAV 2025), **1st Prize**, Universidad de las Américas Puebla.
