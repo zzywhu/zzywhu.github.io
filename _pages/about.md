@@ -60,7 +60,11 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 - [Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration](https://ieeexplore.ieee.org/document/10802610), Jialiang Wang, Zhi Gao, Zhipeng Lin, **Zhiyu Zhou**, et al, **IROS 2024**
 
-- [A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments](https://ieeexplore.ieee.org/document/10591868), Xuhui Zhao, Zhi Gao, Jialiang Wang, et al, **ICCA 2024**
+- [A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments](https://ieeexplore.ieee.org/document/10591868), Xuhui Zhao, Zhi Gao, Jialiang Wang, **Zhiyu Zhou**, et al, **ICCA 2024**
+
+# 📌 Patents
+- [针对弱结构长隧道环境的激光惯性里程计算方法及系统](patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0913162.2 (CN 120411158 B), Granted: 2025-09-23, **CN Invention Patent 2025**
+- [室外大场景激光雷达点云地图的生成方法及装置](patent/P2024000405-BI3243829（预审）-专利证书%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0301880.4 (CN 119810360 B), Granted: 2025-07-22, **CN Invention Patent 2025**
 
 # 🎖 Honors and Awards
 - *Nov 2025*: 16th International Micro Aerial Vehicle Competition (IMAV 2025), **1st Prize**, Universidad de las Américas Puebla.
