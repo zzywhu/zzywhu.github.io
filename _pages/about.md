@@ -23,9 +23,10 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 EasyCalib is accepted to IEEE TIM.
 - *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
 - *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
-- *2026.02*: &nbsp;🎉🎉 EasyColor is accepted to RA-L.
+- *2026.02*: &nbsp;🎉🎉 EasyColor is accepted to IEEE RA-L.
 
 # 📝 Publications 
 
