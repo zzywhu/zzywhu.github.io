@@ -29,6 +29,18 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2026</div><img src='images/EasyCalib(TIM)/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR](https://ieeexplore.ieee.org/abstract/document/11373843)
+
+**Zhiyu Zhou**, Zhi Gao, et al.
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/EasyColor(RAL)/out.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -37,7 +49,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 **Zhiyu Zhou**, Zhi Gao, Yong Li, Hang Zhen
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- low drift
+- 
 </div>
 </div>
 
@@ -49,7 +61,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 **Zhiyu Zhou**, Zhi Gao, Jingzhong Xu
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- low drift
+- 
 </div>
 </div>
 
