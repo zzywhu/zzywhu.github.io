@@ -93,9 +93,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 - *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
 # 💬 Invited Talks
-- *2024.10*, IROS Oral presentation.
-
-![IROS 2024 Oral presentation](/talks/iros24.png)
+- [*2024.10*, IROS Oral presentation.](talks/iros24.png)
 
 # 💻 Internships
 - *2025.05 - 2025.11*, AGIBOT(智元机器人), China.
