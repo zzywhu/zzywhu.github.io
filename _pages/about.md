@@ -67,7 +67,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 </div>
 </div>
 
--[HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs](https://ieeexplore.ieee.org/document/10591868), Wenbin Yang, Jingzhong Xu, Zhi Gao, **Zhiyu Zhou**, et al, **ICCA 2026**
+- [HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs](https://ieeexplore.ieee.org/document/10591868), Wenbin Yang, Jingzhong Xu, Zhi Gao, **Zhiyu Zhou**, et al, **ICCA 2026**
 
 - [Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration](https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49), Jingshi Wang, Zhipeng Lin, **Zhiyu Zhou**, et al, **ELECTRONICS LETTERS 2025**
 
