@@ -23,7 +23,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
-- *2026.05*: R3LIO received a Minor Revision decision from ISPRS.
+- *2026.05*: R3LIO received a Minor Revision decision from ISPRS JPRS.
 - *2026.04*: &nbsp;🎉🎉 EasyCalib is accepted to IEEE TIM.
 - *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
 - *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
@@ -98,4 +98,5 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 - [*2024.10*, IROS Oral presentation.](talks/iros24.png)
 
 # 💻 Internships
-- *2025.05 - 2025.11*, AGIBOT(智元机器人), China.
+- *2025.05 - 2025.11*, AGIBOT(智元机器人), Shanghai, China.
+- *2024.06 - 2024.09*, 中船重工第七一六研究所, Lianyungang, China.
