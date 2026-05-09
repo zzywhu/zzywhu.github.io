@@ -7,9 +7,13 @@
 {% if site.url %}
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
-{% assign seo_image_path = site.author.avatar | default: "images/author.jpg" | replace_first: "/", "" %}
+{% assign seo_image_path = site.author.avatar | default: "images/author.jpg" %}
+{% assign seo_image_first_char = seo_image_path | slice: 0, 1 %}
+{% if seo_image_first_char != "/" %}
+  {% assign seo_image_path = seo_image_path | prepend: "/" %}
+{% endif %}
 {% if site.url %}
-  {% assign seo_image = seo_image_path | prepend: "/" | prepend: site.url %}
+  {% assign seo_image = seo_image_path | prepend: site.url %}
 {% endif %}
 
 {% assign seo_title = page.title | default: site.title %}
