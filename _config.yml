@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Zhiyu Zhou's personal website"
-description              : "Zhiyu Zhou's personal website"
+description              : "Zhiyu Zhou's academic homepage featuring research in robotics, multi-sensor fusion, SLAM, and computer vision."
+url                      : "https://zzywhu.github.io"
+baseurl                  : ""
 repository               : "zzywhu/zzywhu.github.io"
 google_scholar_stats_use_cdn : true
 

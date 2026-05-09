@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Zhiyu Zhou"
+excerpt: "Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,7 +23,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 
 # 🔥 News
-- *2026.05*: R3LIO received a Minor Revision decision from ISPRS JPRS.
+- *2026.05*: R3LIO received a Major Revision decision from ISPRS JPRS.
 - *2026.04*: &nbsp;🎉🎉 EasyCalib is accepted to IEEE TIM.
 - *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
 - *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.

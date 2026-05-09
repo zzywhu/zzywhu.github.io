@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zzywhu.github.io/sitemap.xml
