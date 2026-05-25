@@ -69,7 +69,7 @@ My research interest includes robotics, multi-sensor fusion, SLAM, computer visi
 
 - [HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs](https://ieeexplore.ieee.org/document/10591868), Wenbin Yang, Jingzhong Xu, Zhi Gao, **Zhiyu Zhou**, et al, **ICCA 2026**
 
-- [Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration](https://www.imavs.org/papers/2025/11.pdf), Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, **Zhiyu Zhou**, et al, **IMAV2025**
+- [CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV](https://www.imavs.org/papers/2025/11.pdf), Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, **Zhiyu Zhou**, et al, **IMAV2025**
 
 - [Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration](https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49), Jingshi Wang, Zhipeng Lin, **Zhiyu Zhou**, et al, **ELECTRONICS LETTERS 2025**
 
