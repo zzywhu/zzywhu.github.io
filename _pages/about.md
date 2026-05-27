@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Zhiyu Zhou"
-excerpt: "Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
+excerpt: "Hi, this is Zhiyu Zhou. I am a Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Zhiyu Zhou received the B.E. degree from Wuhan University, Wuhan, China, in 2024, where he is currently pursuing the Ph.D. degree with the School of Remote Sensing and Information Engineering. 
+Hi, this is Zhiyu Zhou. I received my B.E. degree from Wuhan University, Wuhan, China, in 2024, and I am currently pursuing my Ph.D. degree at the School of Remote Sensing and Information Engineering, Wuhan University.
 
-My research interest includes robotics, multi-sensor fusion, SLAM, computer vision, and their applications. I have published more than 10 papers at the top robotics conference and journals with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>google scholar citations <strong><span id='total_cit'>10+</span></strong></a> 
+My research interests include robotics, multi-sensor fusion, SLAM, computer vision, and their applications. I have published more than 10 papers in top robotics conferences and journals, with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>google scholar citations <strong><span id='total_cit'>10+</span></strong></a>.
 
 
 # 🔥 News
