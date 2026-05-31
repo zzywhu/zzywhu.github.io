@@ -2,6 +2,16 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+{% if page.url == "/" %}
+<div class="profile_nav">
+  <h3 class="profile_nav__title">Profile</h3>
+  <ul class="profile_nav__list">
+    {% for link in site.data.navigation.main %}
+      <li class="profile_nav__item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% else %}
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
@@ -217,3 +227,4 @@
     </div>
   </div>
 </div>
+{% endif %}

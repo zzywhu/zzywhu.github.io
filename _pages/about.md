@@ -18,17 +18,31 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <section class="homepage-intro">
-  <p class="homepage-intro__kicker">Robotics / Multi-sensor Fusion / SLAM / Computer Vision</p>
-  <h1 class="homepage-intro__name">Zhiyu Zhou <span class="homepage-intro__name-sub">周志宇</span></h1>
-  <p class="homepage-intro__lead">Ph.D. Student, School of Remote Sensing and Information Engineering, Wuhan University</p>
-  <p class="homepage-intro__summary">Hi, this is Zhiyu Zhou (周志宇). I received my B.E. degree from Wuhan University in 2024, and I am currently pursuing my Ph.D. at Wuhan University. My research focuses on robotics, multi-sensor fusion, SLAM, computer vision, and their real-world applications.</p>
-  <p class="homepage-intro__summary">I have published more than 10 papers in top robotics conferences and journals, with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>Google Scholar citations <strong><span id='total_cit'>10+</span></strong></a>.</p>
-  <div class="homepage-intro__links">
-    <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
-    <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
+  <h1 class="homepage-intro__name">Zhiyu Zhou <span class="homepage-intro__name-sub">(周志宇)</span></h1>
+  <div class="homepage-intro__body">
+    <div class="homepage-intro__photo">
+      <img src="images/author.jpg" alt="Zhiyu Zhou">
+    </div>
+    <div class="homepage-intro__info">
+      <p class="homepage-intro__position">Ph.D. Student</p>
+      <p class="homepage-intro__affiliation">School of Remote Sensing and Information Engineering, Wuhan University</p>
+      <p class="homepage-intro__meta">Research interests: robotics, multi-sensor fusion, SLAM, computer vision, and their real-world applications.</p>
+      <p class="homepage-intro__meta">Wuhan University, Wuhan, China</p>
+      <p class="homepage-intro__meta">E-mail: <a href="mailto:zhouzhiyuwhu@whu.edu.cn">zhouzhiyuwhu@whu.edu.cn</a></p>
+      <p class="homepage-intro__meta">Profiles: <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a></p>
+      <p class="homepage-intro__meta">Citations: <strong><span id='total_cit'>10+</span></strong></p>
+    </div>
   </div>
 </section>
 
+# About me
+I am currently a Ph.D. student at the School of Remote Sensing and Information Engineering, Wuhan University. I received my B.E. degree from Wuhan University in 2024.
+
+My research focuses on robotics, multi-sensor fusion, SLAM, computer vision, and their practical deployment in real-world systems. I am particularly interested in robust perception and calibration problems for intelligent robotic platforms.
+
+# Education
+- *2024.06 - 2029.04 (now)*, PhD, Wuhan University.
+- *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
 # News
 - *2026.05*: R3LIO received a Major Revision decision from ISPRS JPRS.
@@ -101,10 +115,6 @@ redirect_from:
 - *Sep 2024*: "ZhiZhuo" Scholarship, Wuhan University (10,000 CNY).
 - *Oct 2024*: Graduate Overseas Exchange Funding Scholarship, Wuhan University (8,000 CNY).
 - *Dec 2023*: National Grand Prize, 18th "Challenge Cup" (50,000 CNY).
-
-# Education
-- *2024.06 - 2029.04 (now)*, PhD, Wuhan University.
-- *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
 # Invited Talks
 - [*2024.10*, IROS Oral presentation.](talks/iros24.png)
