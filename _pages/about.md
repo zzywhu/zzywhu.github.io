@@ -2,7 +2,7 @@
 permalink: /
 title: "Zhiyu Zhou | 周志宇"
 excerpt: "Hi, this is Zhiyu Zhou (周志宇). I am a Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -20,88 +20,57 @@ redirect_from:
 <section class="homepage-intro">
   <h1 class="homepage-intro__name">Zhiyu Zhou <span class="homepage-intro__name-sub">(周志宇)</span></h1>
   <div class="homepage-intro__body">
-    <div class="homepage-intro__photo">
-      <img src="images/author.jpg" alt="Zhiyu Zhou">
-    </div>
     <div class="homepage-intro__info">
       <p class="homepage-intro__position">Ph.D. Student</p>
       <p class="homepage-intro__affiliation">School of Remote Sensing and Information Engineering, Wuhan University</p>
       <p class="homepage-intro__meta">Research interests: robotics, multi-sensor fusion, SLAM, computer vision, and their real-world applications.</p>
       <p class="homepage-intro__meta">Wuhan University, Wuhan, China</p>
-      <p class="homepage-intro__meta">E-mail: <a href="mailto:zhouzhiyuwhu@whu.edu.cn">zhouzhiyuwhu@whu.edu.cn</a></p>
-      <p class="homepage-intro__meta">Profiles: <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a></p>
-      <p class="homepage-intro__meta">Citations: <strong><span id='total_cit'>10+</span></strong></p>
+      <div class="homepage-intro__socials">
+        <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
+        <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
+      </div>
+      <div class="homepage-intro__about">
+        <p>Hi, this is Zhiyu Zhou (周志宇). I received my B.E. degree from Wuhan University in 2024, and I am currently pursuing my Ph.D. at Wuhan University.</p>
+        <p>My work focuses on robust perception, calibration, and multi-sensor understanding for intelligent robotic systems. I have published more than 10 papers in top robotics conferences and journals, with <strong><span id='total_cit'>10+</span></strong> Google Scholar citations.</p>
+      </div>
+    </div>
+    <div class="homepage-intro__photo">
+      <img src="images/author.jpg" alt="Zhiyu Zhou">
     </div>
   </div>
 </section>
 
 # About me
-I am currently a Ph.D. student at the School of Remote Sensing and Information Engineering, Wuhan University. I received my B.E. degree from Wuhan University in 2024.
+I am currently a Ph.D. student at the School of Remote Sensing and Information Engineering, Wuhan University. My research focuses on robotics, multi-sensor fusion, SLAM, computer vision, and their practical deployment in real-world systems.
 
-My research focuses on robotics, multi-sensor fusion, SLAM, computer vision, and their practical deployment in real-world systems. I am particularly interested in robust perception and calibration problems for intelligent robotic platforms.
+I am particularly interested in robust perception and calibration problems for intelligent robotic platforms, including camera-LiDAR calibration, visual-inertial and LiDAR-inertial estimation, and practical sensing systems for field robotics.
 
 # Education
 - *2024.06 - 2029.04 (now)*, PhD, Wuhan University.
 - *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
 # News
-- *2026.05*: R3LIO received a Major Revision decision from ISPRS JPRS.
-- *2026.04*: EasyCalib is accepted to IEEE TIM.
-- *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
-- *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
-- *2026.02*: EasyColor is accepted to IEEE RA-L.
+<ul class="news-list">
+  <li><time>2026/05</time><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
+  <li><time>2026/04</time><span>EasyCalib is accepted to IEEE TIM.</span></li>
+  <li><time>2026/04</time><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
+  <li><time>2026/02</time><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
+  <li><time>2026/02</time><span>EasyColor is accepted to IEEE RA-L.</span></li>
+</ul>
 
 # Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2026</div><img src='images/EasyCalib(TIM)/framework.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR](https://ieeexplore.ieee.org/abstract/document/11495237)
-
-**Zhiyu Zhou**, Zhi Gao, et al.
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/EasyColor(RAL)/out.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[EasyColor:Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration](https://ieeexplore.ieee.org/abstract/document/11373843)
-
-**Zhiyu Zhou**, Zhi Gao, Yong Li, Hang Zhen
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2024</div><img src='images/TBD(RAL)/out.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World](https://ieeexplore.ieee.org/document/10497093)
-
-**Zhiyu Zhou**, Zhi Gao, Jingzhong Xu
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- 
-</div>
-</div>
-
-- [HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs](https://ieeexplore.ieee.org/document/10591868), Wenbin Yang, Jingzhong Xu, Zhi Gao, **Zhiyu Zhou**, et al, **ICCA 2026**
-
-- [CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV](https://www.imavs.org/papers/2025/11.pdf), Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, **Zhiyu Zhou**, et al, **IMAV 2025**
-
-- [Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration](https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49), Jingshi Wang, Zhipeng Lin, **Zhiyu Zhou**, et al, **ELECTRONICS LETTERS 2025**
-
-- [Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation](https://ieeexplore.ieee.org/document/11127522), Xinyu Guo, Zhi Gao, **Zhiyu Zhou**, et al, **ICRA 2025**
-
-- [Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition](https://ieeexplore.ieee.org/document/10641455), Wenbo Sun, Yao Lu, Yichen Zhang, Yuhan Zhu, **Zhiyu Zhou**, et al, **IGARSS 2024**
-
-- [Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration](https://ieeexplore.ieee.org/document/10802610), Jialiang Wang, Zhi Gao, Zhipeng Lin, **Zhiyu Zhou**, et al, **IROS 2024**
-
-- [A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments](https://ieeexplore.ieee.org/document/10591868), Xuhui Zhao, Zhi Gao, Jialiang Wang, **Zhiyu Zhou**, et al, **ICCA 2024**
+<ol class="publication-list">
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a><br>**Zhiyu Zhou**, Zhi Gao, et al. <em>IEEE TIM, 2026.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/11373843">EasyColor: Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration</a><br>**Zhiyu Zhou**, Zhi Gao, Yong Li, Hang Zhen. <em>IEEE RA-L, 2026.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10497093">Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World</a><br>**Zhiyu Zhou**, Zhi Gao, Jingzhong Xu. <em>IEEE RA-L, 2024.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10591868">HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs</a><br>Wenbin Yang, Jingzhong Xu, Zhi Gao, **Zhiyu Zhou**, et al. <em>ICCA, 2026.</em></li>
+  <li><a href="https://www.imavs.org/papers/2025/11.pdf">CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV</a><br>Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, **Zhiyu Zhou**, et al. <em>IMAV, 2025.</em></li>
+  <li><a href="https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49">Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration</a><br>Jingshi Wang, Zhipeng Lin, **Zhiyu Zhou**, et al. <em>Electronics Letters, 2025.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, **Zhiyu Zhou**, et al. <em>ICRA, 2025.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10641455">Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition</a><br>Wenbo Sun, Yao Lu, Yichen Zhang, Yuhan Zhu, **Zhiyu Zhou**, et al. <em>IGARSS, 2024.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, **Zhiyu Zhou**, et al. <em>IROS, 2024.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10591868">A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments</a><br>Xuhui Zhao, Zhi Gao, Jialiang Wang, **Zhiyu Zhou**, et al. <em>ICCA, 2024.</em></li>
+</ol>
 
 # Patents
 - [针对弱结构长隧道环境的激光惯性里程计算方法及系统](patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0913162.2 (CN 120411158 B), Granted: 2025-09-23, **CN Invention Patent 2025**
