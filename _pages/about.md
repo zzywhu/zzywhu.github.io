@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Zhiyu Zhou"
-excerpt: "Hi, this is Zhiyu Zhou. I am a Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
+title: "Zhiyu Zhou | 周志宇"
+excerpt: "Hi, this is Zhiyu Zhou (周志宇). I am a Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,19 +17,27 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Zhiyu Zhou. I received my B.E. degree from Wuhan University, Wuhan, China, in 2024, and I am currently pursuing my Ph.D. degree at the School of Remote Sensing and Information Engineering, Wuhan University.
+<section class="homepage-intro">
+  <p class="homepage-intro__kicker">Robotics / Multi-sensor Fusion / SLAM / Computer Vision</p>
+  <h1 class="homepage-intro__name">Zhiyu Zhou <span class="homepage-intro__name-sub">周志宇</span></h1>
+  <p class="homepage-intro__lead">Ph.D. Student, School of Remote Sensing and Information Engineering, Wuhan University</p>
+  <p class="homepage-intro__summary">Hi, this is Zhiyu Zhou (周志宇). I received my B.E. degree from Wuhan University in 2024, and I am currently pursuing my Ph.D. at Wuhan University. My research focuses on robotics, multi-sensor fusion, SLAM, computer vision, and their real-world applications.</p>
+  <p class="homepage-intro__summary">I have published more than 10 papers in top robotics conferences and journals, with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>Google Scholar citations <strong><span id='total_cit'>10+</span></strong></a>.</p>
+  <div class="homepage-intro__links">
+    <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
+    <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
+  </div>
+</section>
 
-My research interests include robotics, multi-sensor fusion, SLAM, computer vision, and their applications. I have published more than 10 papers in top robotics conferences and journals, with <a href='https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl'>google scholar citations <strong><span id='total_cit'>10+</span></strong></a>.
 
-
-# 🔥 News
+# News
 - *2026.05*: R3LIO received a Major Revision decision from ISPRS JPRS.
-- *2026.04*: &nbsp;🎉🎉 EasyCalib is accepted to IEEE TIM.
+- *2026.04*: EasyCalib is accepted to IEEE TIM.
 - *2026.04*: EasyCalib received a Minor Revision decision from IEEE TIM.
 - *2026.02*: EasyCalib received a Reject and Resubmit decision from IEEE TIM.
-- *2026.02*: &nbsp;🎉🎉 EasyColor is accepted to IEEE RA-L.
+- *2026.02*: EasyColor is accepted to IEEE RA-L.
 
-# 📝 Publications 
+# Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2026</div><img src='images/EasyCalib(TIM)/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -81,12 +89,12 @@ My research interests include robotics, multi-sensor fusion, SLAM, computer visi
 
 - [A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments](https://ieeexplore.ieee.org/document/10591868), Xuhui Zhao, Zhi Gao, Jialiang Wang, **Zhiyu Zhou**, et al, **ICCA 2024**
 
-# 📌 Patents
+# Patents
 - [针对弱结构长隧道环境的激光惯性里程计算方法及系统](patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0913162.2 (CN 120411158 B), Granted: 2025-09-23, **CN Invention Patent 2025**
 - [室外大场景激光雷达点云地图的生成方法及装置](patent/P2024000405-BI3243829（预审）-专利证书%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0301880.4 (CN 119810360 B), Granted: 2025-07-22, **CN Invention Patent 2025**
 - [基于机载建筑物LiDAR点云的立面线自动提取方法及设备](patent/2024基于机载建筑物LiDAR点云的立面线自动提取方法及设备-220783-发明专利证书.pdf), Jingzhong Xu, **Zhiyu Zhou**, Xiangyun Hu, Chen Rao, ZL 2022 1 0379641.7 (CN 114742843 B), Granted: 2024-11-22, **CN Invention Patent 2024**
 
-# 🎖 Honors and Awards
+# Awards
 - *Nov 2025*: 16th International Micro Aerial Vehicle Competition (IMAV 2025), **1st Prize**, Universidad de las Américas Puebla.
 - *Jun 2024*: Outstanding Undergraduate Graduate, Wuhan University.
 - *Jun 2024*: Outstanding Undergraduate Thesis, Wuhan University.
@@ -94,13 +102,13 @@ My research interests include robotics, multi-sensor fusion, SLAM, computer visi
 - *Oct 2024*: Graduate Overseas Exchange Funding Scholarship, Wuhan University (8,000 CNY).
 - *Dec 2023*: National Grand Prize, 18th "Challenge Cup" (50,000 CNY).
 
-# 📖 Educations
+# Education
 - *2024.06 - 2029.04 (now)*, PhD, Wuhan University.
 - *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
 
-# 💬 Invited Talks
+# Invited Talks
 - [*2024.10*, IROS Oral presentation.](talks/iros24.png)
 
-# 💻 Internships
+# Internships
 - *2025.05 - 2025.11*, AGIBOT(智元机器人), Shanghai, China.
 - *2024.06 - 2024.09*, 中船重工第七一六研究所, Lianyungang, China.

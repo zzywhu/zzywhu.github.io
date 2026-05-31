@@ -45,6 +45,9 @@
 
 {% if seo_description %}
   <meta name="description" content="{{ seo_description }}">
+  {% if site.search_keywords %}
+  <meta name="keywords" content="{{ site.search_keywords | escape_once }}">
+  {% endif %}
   <meta property="og:description" content="{{ seo_description }}">
   <meta name="robots" content="index, follow">
 {% endif %}
@@ -110,9 +113,11 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": {{ site.author.name | jsonify }},
+      "alternateName": {{ site.author.name_cn | jsonify }},
       "url": {{ site.url | jsonify }},
       "image": {{ seo_image | jsonify }},
-      "description": {{ site.author.bio | jsonify }}
+      "description": {{ site.author.bio | jsonify }},
+      "knowsAbout": ["Robotics", "Multi-sensor Fusion", "SLAM", "Computer Vision"]
     }
   </script>
 {% endif %}

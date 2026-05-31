@@ -6,12 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhiyu Zhou's personal website"
-description              : "Zhiyu Zhou's academic homepage featuring research in robotics, multi-sensor fusion, SLAM, and computer vision."
+title                    : "Zhiyu Zhou | 周志宇"
+description              : "Zhiyu Zhou (周志宇) academic homepage featuring research in robotics, multi-sensor fusion, SLAM, and computer vision."
 url                      : "https://zzywhu.github.io"
 baseurl                  : ""
 repository               : "zzywhu/zzywhu.github.io"
 google_scholar_stats_use_cdn : true
+search_keywords          : "Zhiyu Zhou, 周志宇, Zhiyu Zhou homepage, 周志宇主页, Wuhan University, 武汉大学, robotics, multi-sensor fusion, SLAM, computer vision"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -24,6 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhiyu Zhou"
+  name_cn          : "周志宇"
   avatar           : "images/author.jpg"
   bio              : "Wuhan University | Ph.D. Student | Robotics | Multi-sensor Fusion | SLAM | Computer Vision"
   location         : "Wuhan, China"
