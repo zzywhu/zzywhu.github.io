@@ -6,31 +6,36 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <p class="compact-note">Full citation record: <a href="{{site.author.googlescholar}}">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+<h2>First-Author Papers</h2>
+<div class="paper-list paper-list--wide">
+  <article class="paper-card">
+    <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
+    <div>
+      <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a></h3>
+      <p><strong>Zhiyu Zhou</strong>, Zhi Gao, et al. <em>IEEE Transactions on Instrumentation and Measurement</em>, 2026.</p>
+    </div>
+  </article>
+  <article class="paper-card">
+    <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11373843"><img src="/images/EasyColor(RAL)/out.gif" alt="EasyColor result"></a>
+    <div>
+      <h3><a href="https://ieeexplore.ieee.org/abstract/document/11373843">EasyColor: Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration</a></h3>
+      <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Yong Li, Hang Zhen. <em>IEEE Robotics and Automation Letters</em>, 2026.</p>
+    </div>
+  </article>
+  <article class="paper-card">
+    <a class="paper-card__media" href="https://ieeexplore.ieee.org/document/10497093"><img src="/images/TBD(RAL)/out.gif" alt="Tracking by Detection result"></a>
+    <div>
+      <h3><a href="https://ieeexplore.ieee.org/document/10497093">Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World</a></h3>
+      <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Jingzhong Xu. <em>IEEE Robotics and Automation Letters</em>, 2024.</p>
+    </div>
+  </article>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<h2>Selected Co-Authored Papers</h2>
+<ol class="publication-list publication-list--compact">
+  <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE ICRA, 2025.</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE/RSJ IROS, 2024.</em></li>
+</ol>

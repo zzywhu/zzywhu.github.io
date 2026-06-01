@@ -42,70 +42,124 @@
     "vendor/font-awesome/brands"
 ;
 
-.homepage-intro {
-  margin: 0 0 2.25rem;
-  padding: 1.75rem 0 1.25rem;
-  border-bottom: 1px solid var(--global-border-color);
+body {
+  font-family: "Aptos", "Inter", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  letter-spacing: 0;
 }
 
-.homepage-intro__body {
+h1,
+h2,
+h3,
+.masthead__menu-item {
+  font-family: "Aptos Display", "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+#main {
+  margin-top: 1.35em;
+}
+
+.page__title {
+  margin-bottom: .65rem;
+  font-size: 1.65rem;
+}
+
+.page__content h2 {
+  margin-top: 1.4rem;
+  margin-bottom: .65rem;
+  padding-bottom: .25rem;
+  font-size: 1.15rem;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.5;
+}
+
+#theme-toggle {
+  display: none;
+}
+
+.home-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 180px;
-  gap: 2rem;
-  align-items: center;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: start;
 }
 
-.homepage-intro__eyebrow {
-  margin: 0 0 .4rem;
-  color: var(--global-text-color-light);
-  font-size: .85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.homepage-intro__name {
-  margin: 0 0 .75rem;
-  font-size: 2.15rem;
-  line-height: 1.08;
-}
-
-.homepage-intro__name span {
-  display: inline-block;
-  color: var(--global-text-color-light);
-  font-size: 1.35rem;
-  font-weight: 600;
-}
-
-.homepage-intro__lead {
-  margin: 0 0 1rem;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-.homepage-intro__socials {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-}
-
-.homepage-intro__socials a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2rem;
-  padding: .35rem .7rem;
+.profile-card {
+  position: sticky;
+  top: 5rem;
+  padding: .95rem;
   border: 1px solid var(--global-border-color);
-  border-radius: 4px;
-  font-size: .8rem;
+  border-radius: 6px;
+  background: var(--global-bg-color);
+}
+
+.profile-card__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: .85rem;
+}
+
+.profile-card h1 {
+  margin: 0 0 .35rem;
+  font-size: 1.35rem;
+  line-height: 1.15;
+}
+
+.profile-card h1 span {
+  display: block;
+  margin-top: .15rem;
+  color: var(--global-text-color-light);
+  font-size: .95rem;
+}
+
+.profile-card p {
+  margin: .45rem 0;
+  color: var(--global-text-color);
+  font-size: .88rem;
+  line-height: 1.45;
+}
+
+.profile-card__role {
+  color: var(--global-text-color-light) !important;
+  font-weight: 700;
+}
+
+.profile-card__links {
+  display: grid;
+  gap: .35rem;
+  margin-top: .75rem;
+}
+
+.profile-card__links a,
+.inline-link a {
   font-weight: 700;
   text-decoration: none;
 }
 
-.homepage-intro__photo img {
-  display: block;
-  width: 180px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 6px;
+.compact-section {
+  margin-bottom: 1.15rem;
+}
+
+.compact-section:first-child h2 {
+  margin-top: 0;
+}
+
+.compact-section p {
+  margin-bottom: .55rem;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
 }
 
 .news-list {
@@ -126,20 +180,100 @@
 }
 
 .publication-list li {
-  margin-bottom: .8rem;
+  margin-bottom: .65rem;
+}
+
+.publication-list--compact {
+  padding-left: 1.15rem;
+}
+
+.plain-list {
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.plain-list li {
+  margin-bottom: .25rem;
+}
+
+.compact-note {
+  margin-top: 0;
+  color: var(--global-text-color-light);
+}
+
+.paper-list {
+  display: grid;
+  gap: .8rem;
+}
+
+.paper-card {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: .85rem;
+  align-items: center;
+  padding: .75rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+}
+
+.paper-card__media {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.paper-card__media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+}
+
+.paper-card h3 {
+  margin: 0 0 .3rem;
+  font-size: .98rem;
+  line-height: 1.35;
+}
+
+.paper-card p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: .86rem;
+}
+
+.sidebar .author__avatar img {
+  border-radius: 6px;
+}
+
+.sidebar .author__name {
+  font-size: 1rem;
+}
+
+.sidebar .author__bio,
+.sidebar p,
+.sidebar li {
+  font-size: .78rem;
+}
+
+.author__urls a {
+  font-size: .82rem;
 }
 
 @media (max-width: 600px) {
-  .homepage-intro__body {
+  .home-grid,
+  .two-col,
+  .paper-card {
     grid-template-columns: 1fr;
   }
 
-  .homepage-intro__photo {
-    order: -1;
+  .profile-card {
+    position: static;
   }
 
-  .homepage-intro__photo img {
-    width: min(160px, 60vw);
+  .profile-card__photo {
+    width: min(170px, 62vw);
   }
 
   .news-list li {

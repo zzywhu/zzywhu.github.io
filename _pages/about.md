@@ -1,85 +1,96 @@
 ---
 permalink: /
-title: "Zhiyu Zhou | 周志宇"
+title:
 excerpt: "Zhiyu Zhou (周志宇), Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="homepage-intro">
-  <div class="homepage-intro__body">
-    <div class="homepage-intro__info">
-      <p class="homepage-intro__eyebrow">Ph.D. Student · Wuhan University</p>
-      <h1 class="homepage-intro__name">Zhiyu Zhou <span>(周志宇)</span></h1>
-      <p class="homepage-intro__lead">I work on robotics, multi-sensor fusion, SLAM, computer vision, and robust perception systems for real-world robotic platforms.</p>
-      <div class="homepage-intro__socials">
-        <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
-        <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
+<div class="home-grid">
+  <aside class="profile-card">
+    <img class="profile-card__photo" src="/images/author.jpg" alt="Zhiyu Zhou">
+    <h1>Zhiyu Zhou <span>周志宇</span></h1>
+    <p class="profile-card__role">Ph.D. Student</p>
+    <p>School of Remote Sensing and Information Engineering<br>Wuhan University</p>
+    <p>Robotics · Multi-sensor Fusion · SLAM · Computer Vision</p>
+    <div class="profile-card__links">
+      <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
+      <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
+      <a href="https://github.com/zzywhu">GitHub</a>
+    </div>
+  </aside>
+
+  <div class="home-main">
+    <section class="compact-section">
+      <h2>About</h2>
+      <p>I am a Ph.D. student at Wuhan University. My work focuses on robust perception, calibration, and multi-sensor understanding for intelligent robotic systems, especially camera-LiDAR calibration, visual/LiDAR-inertial estimation, and SLAM in challenging environments.</p>
+    </section>
+
+    <section class="compact-section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><time>2026/05</time><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
+        <li><time>2026/04</time><span>EasyCalib accepted to IEEE TIM.</span></li>
+        <li><time>2026/02</time><span>EasyColor accepted to IEEE RA-L.</span></li>
+        <li><time>2025/11</time><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
+        <li><time>2024/10</time><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
+      </ul>
+    </section>
+
+    <section class="compact-section">
+      <h2>First-Author Publications</h2>
+      <div class="paper-list">
+        <article class="paper-card">
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
+          <div>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, et al. IEEE TIM, 2026.</p>
+          </div>
+        </article>
+        <article class="paper-card">
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11373843"><img src="/images/EasyColor(RAL)/out.gif" alt="EasyColor result"></a>
+          <div>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11373843">EasyColor: Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Yong Li, Hang Zhen. IEEE RA-L, 2026.</p>
+          </div>
+        </article>
+        <article class="paper-card">
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/document/10497093"><img src="/images/TBD(RAL)/out.gif" alt="Tracking by Detection result"></a>
+          <div>
+            <h3><a href="https://ieeexplore.ieee.org/document/10497093">Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Jingzhong Xu. IEEE RA-L, 2024.</p>
+          </div>
+        </article>
       </div>
-    </div>
-    <div class="homepage-intro__photo">
-      <img src="/images/author.jpg" alt="Zhiyu Zhou">
-    </div>
+      <p class="inline-link"><a href="/publications/">All publications</a></p>
+    </section>
+
+    <section class="compact-section two-col">
+      <div>
+        <h2>Education</h2>
+        <ul class="plain-list">
+          <li><strong>2024.06 - 2029.04</strong>, Ph.D., Wuhan University.</li>
+          <li><strong>2020.09 - 2024.06</strong>, B.E., Wuhan University.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Experience & Awards</h2>
+        <ul class="plain-list">
+          <li>AGIBOT, Shanghai, 2025.05 - 2025.11.</li>
+          <li>Outstanding Undergraduate Graduate, Wuhan University, 2024.</li>
+          <li>National Grand Prize, 18th "Challenge Cup", 2023.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="compact-section">
+      <h2>Patents & Talks</h2>
+      <ul class="plain-list">
+        <li>3 granted CN invention patents. <a href="/patents/">Certificates</a></li>
+        <li>IROS 2024 oral presentation. <a href="/talks/2024-10-14-iros-oral/">Talk page</a></li>
+      </ul>
+    </section>
   </div>
-</section>
-
-# About Me
-
-Hi, this is Zhiyu Zhou (周志宇). I received my B.E. degree from Wuhan University in 2024, and I am currently pursuing my Ph.D. at the School of Remote Sensing and Information Engineering, Wuhan University.
-
-My research focuses on robust perception, calibration, and multi-sensor understanding for intelligent robotic systems. I am particularly interested in camera-LiDAR calibration, visual-inertial and LiDAR-inertial estimation, SLAM in challenging environments, and practical sensing systems for field robotics.
-
-# Education
-
-- *2024.06 - 2029.04 (expected)*, Ph.D., Wuhan University.
-- *2020.09 - 2024.06*, Bachelor of Engineering, Wuhan University.
-
-# News
-
-<ul class="news-list">
-  <li><time>2026/05</time><span>R3LIO received a Major Revision decision from ISPRS Journal of Photogrammetry and Remote Sensing.</span></li>
-  <li><time>2026/04</time><span>EasyCalib is accepted to IEEE Transactions on Instrumentation and Measurement.</span></li>
-  <li><time>2026/02</time><span>EasyColor is accepted to IEEE Robotics and Automation Letters.</span></li>
-  <li><time>2025/11</time><span>Our team won 1st Prize at the 16th International Micro Aerial Vehicle Competition.</span></li>
-  <li><time>2024/10</time><span>I gave an oral presentation at IEEE/RSJ IROS 2024.</span></li>
-</ul>
-
-# Selected Publications
-
-<ol class="publication-list">
-  <li><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a><br><strong>Zhiyu Zhou</strong>, Zhi Gao, et al. <em>IEEE Transactions on Instrumentation and Measurement, 2026.</em></li>
-  <li><a href="https://ieeexplore.ieee.org/abstract/document/11373843">EasyColor: Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration</a><br><strong>Zhiyu Zhou</strong>, Zhi Gao, Yong Li, Hang Zhen. <em>IEEE Robotics and Automation Letters, 2026.</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/10497093">Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World</a><br><strong>Zhiyu Zhou</strong>, Zhi Gao, Jingzhong Xu. <em>IEEE Robotics and Automation Letters, 2024.</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE ICRA, 2025.</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE/RSJ IROS, 2024.</em></li>
-</ol>
-
-[View all publications](/publications/)
-
-# Patents
-
-- [针对弱结构长隧道环境的激光惯性里程计算方法及系统](/patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0913162.2, Granted: 2025-09-23.
-- [室外大场景激光雷达点云地图的生成方法及装置](/patent/P2024000405-BI3243829（预审）-专利证书%20%281%29.pdf), Zhi Gao, **Zhiyu Zhou**, ZL 2025 1 0301880.4, Granted: 2025-07-22.
-- [基于机载建筑物LiDAR点云的立面线自动提取方法及设备](/patent/2024基于机载建筑物LiDAR点云的立面线自动提取方法及设备-220783-发明专利证书.pdf), Jingzhong Xu, **Zhiyu Zhou**, Xiangyun Hu, Chen Rao, ZL 2022 1 0379641.7, Granted: 2024-11-22.
-
-[View patent certificates](/patents/)
-
-# Awards
-
-- *Nov 2025*: 16th International Micro Aerial Vehicle Competition, **1st Prize**, Universidad de las Americas Puebla.
-- *Jun 2024*: Outstanding Undergraduate Graduate, Wuhan University.
-- *Jun 2024*: Outstanding Undergraduate Thesis, Wuhan University.
-- *Sep 2024*: "ZhiZhuo" Scholarship, Wuhan University.
-- *Oct 2024*: Graduate Overseas Exchange Funding Scholarship, Wuhan University.
-- *Dec 2023*: National Grand Prize, 18th "Challenge Cup".
-
-# Invited Talks
-
-- [*2024.10*, IROS oral presentation.](/talks/2024-10-14-iros-oral/)
-
-# Internships
-
-- *2025.05 - 2025.11*, AGIBOT (智元机器人), Shanghai, China.
-- *2024.06 - 2024.09*, 中船重工第七一六研究所, Lianyungang, China.
+</div>
