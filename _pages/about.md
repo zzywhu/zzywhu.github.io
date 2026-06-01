@@ -35,13 +35,13 @@ redirect_from:
     <section class="compact-section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><time>2026/05</time><b>◆</b><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
-        <li><time>2026/04</time><b>★</b><span>EasyCalib accepted to IEEE TIM.</span></li>
-        <li><time>2026/04</time><b>◆</b><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
-        <li><time>2026/02</time><b>◆</b><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
-        <li><time>2026/02</time><b>★</b><span>EasyColor accepted to IEEE RA-L.</span></li>
-        <li><time>2025/11</time><b>★</b><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
-        <li><time>2024/10</time><b>·</b><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
+        <li><time>2026/05</time><b>😄😄</b><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
+        <li><time>2026/04</time><b>🎉🎉</b><span>EasyCalib accepted to IEEE TIM.</span></li>
+        <li><time>2026/04</time><b>😄😄</b><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
+        <li><time>2026/02</time><b>😄😄</b><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
+        <li><time>2026/02</time><b>🎉🎉</b><span>EasyColor accepted to IEEE RA-L.</span></li>
+        <li><time>2025/11</time><b>🎉🎉</b><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
+        <li><time>2024/10</time><b>😄😄</b><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
       </ul>
     </section>
 
@@ -76,8 +76,8 @@ redirect_from:
     <section class="compact-section">
       <h2>Experience</h2>
       <div class="dense-list">
-        <p><strong>AGIBOT</strong>, Shanghai, 2025.05 - 2025.11.</p>
-        <p><strong>CSIC 716 Research Institute</strong>, Lianyungang, 2024.06 - 2024.09.</p>
+        <p><strong>AGIBOT (智元机器人 全域算法部)</strong>, Shanghai, 2025.05 - 2025.11.</p>
+        <p><strong>中船重工716研究所</strong>, Lianyungang, 2024.06 - 2024.09.</p>
       </div>
     </section>
 
@@ -85,10 +85,10 @@ redirect_from:
       <h2>Awards</h2>
       <div class="dense-list">
         <p><strong>1st Prize</strong>, 16th International Micro Aerial Vehicle Competition, 2025.</p>
-        <p>Outstanding Undergraduate Graduate, Wuhan University, 2024.</p>
-        <p>Outstanding Undergraduate Thesis, Wuhan University, 2024.</p>
-        <p>"ZhiZhuo" Scholarship, Wuhan University, 2024.</p>
-        <p>Graduate Overseas Exchange Funding Scholarship, Wuhan University, 2024.</p>
+        <p><strong>Outstanding Undergraduate Graduate</strong>, Wuhan University, 2024.</p>
+        <p><strong>Outstanding Undergraduate Thesis</strong>, Wuhan University, 2024.</p>
+        <p><strong>"ZhiZhuo" Scholarship</strong>, Wuhan University, 2024.</p>
+        <p><strong>Graduate Overseas Exchange Funding Scholarship</strong>, Wuhan University, 2024.</p>
         <p><strong>National Grand Prize</strong>, 18th "Challenge Cup", 2023.</p>
       </div>
     </section>
