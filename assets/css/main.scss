@@ -379,7 +379,7 @@ body {
 }
 
 .news-list li {
-  grid-template-columns: 4.15rem .9rem minmax(0, 1fr);
+  grid-template-columns: 4rem 1.25rem minmax(0, 1fr);
   gap: 0;
   margin: .18rem 0;
 }
@@ -390,7 +390,9 @@ body {
 
 .news-list b {
   color: var(--global-link-color);
-  text-align: center;
+  line-height: 1.45;
+  margin-left: -.08rem;
+  text-align: left;
 }
 
 .paper-list {
