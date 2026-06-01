@@ -35,13 +35,13 @@ redirect_from:
     <section class="compact-section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><time>2026/05</time><b>😄</b><span>R3LIO received a <strong>Major Revision</strong> decision from ISPRS JPRS.</span></li>
-        <li><time>2026/04</time><b>🎉</b><span>EasyCalib accepted to IEEE TIM.</span></li>
-        <li><time>2026/04</time><b>😄</b><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
-        <li><time>2026/02</time><b>😄</b><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
-        <li><time>2026/02</time><b>🎉</b><span>EasyColor accepted to IEEE RA-L.</span></li>
-        <li><time>2025/11</time><b>🎉</b><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
-        <li><time>2024/10</time><b>😄</b><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
+        <li><time>2026/05</time><b>😄</b><span>R3LIO received a <strong>Major Revision</strong> decision from <strong>ISPRS JPRS</strong>.</span></li>
+        <li><time>2026/04</time><b>🎉</b><span>EasyCalib <strong>accepted</strong> to <strong>IEEE TIM</strong>.</span></li>
+        <li><time>2026/04</time><b>😄</b><span>EasyCalib received a <strong>Minor Revision</strong> decision from <strong>IEEE TIM</strong>.</span></li>
+        <li><time>2026/02</time><b>😄</b><span>EasyCalib received a <strong>Reject and Resubmit</strong> decision from <strong>IEEE TIM</strong>.</span></li>
+        <li><time>2026/02</time><b>🎉</b><span>EasyColor <strong>accepted</strong> to <strong>IEEE RA-L</strong>.</span></li>
+        <li><time>2025/11</time><b>🎉</b><span><strong>1st Prize</strong>, 16th International Micro Aerial Vehicle Competition.</span></li>
+        <li><time>2024/10</time><b>😄</b><span><strong>Oral presentation</strong> at <strong>IEEE/RSJ IROS 2024</strong>.</span></li>
       </ul>
     </section>
 
