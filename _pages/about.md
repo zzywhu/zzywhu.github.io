@@ -35,7 +35,7 @@ redirect_from:
     <section class="compact-section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><time>2026/05</time>😄😄R3LIO received a Major Revision decision from ISPRS JPRS.</li>
+        <li><time>2026/05</time><span>😄😄 R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
         <li><time>2026/04</time><b>🎉🎉</b><span>EasyCalib accepted to IEEE TIM.</span></li>
         <li><time>2026/04</time><b>😄😄</b><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
         <li><time>2026/02</time><b>😄😄</b><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
