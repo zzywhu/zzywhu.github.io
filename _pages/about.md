@@ -35,11 +35,13 @@ redirect_from:
     <section class="compact-section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><time>2026/05</time><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
-        <li><time>2026/04</time><span>EasyCalib accepted to IEEE TIM.</span></li>
-        <li><time>2026/02</time><span>EasyColor accepted to IEEE RA-L.</span></li>
-        <li><time>2025/11</time><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
-        <li><time>2024/10</time><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
+        <li><time>2026/05</time><b>◆</b><span>R3LIO received a Major Revision decision from ISPRS JPRS.</span></li>
+        <li><time>2026/04</time><b>★</b><span>EasyCalib accepted to IEEE TIM.</span></li>
+        <li><time>2026/04</time><b>◆</b><span>EasyCalib received a Minor Revision decision from IEEE TIM.</span></li>
+        <li><time>2026/02</time><b>◆</b><span>EasyCalib received a Reject and Resubmit decision from IEEE TIM.</span></li>
+        <li><time>2026/02</time><b>★</b><span>EasyColor accepted to IEEE RA-L.</span></li>
+        <li><time>2025/11</time><b>★</b><span>1st Prize, 16th International Micro Aerial Vehicle Competition.</span></li>
+        <li><time>2024/10</time><b>·</b><span>Oral presentation at IEEE/RSJ IROS 2024.</span></li>
       </ul>
     </section>
 
@@ -72,18 +74,35 @@ redirect_from:
     </section>
 
     <section class="compact-section">
-      <h2>Experience & Awards</h2>
+      <h2>Experience</h2>
       <div class="dense-list">
         <p><strong>AGIBOT</strong>, Shanghai, 2025.05 - 2025.11.</p>
-        <p>Outstanding Undergraduate Graduate, Wuhan University, 2024.</p>
-        <p>National Grand Prize, 18th "Challenge Cup", 2023.</p>
+        <p><strong>CSIC 716 Research Institute</strong>, Lianyungang, 2024.06 - 2024.09.</p>
       </div>
     </section>
 
     <section class="compact-section">
-      <h2>Patents & Talks</h2>
+      <h2>Awards</h2>
+      <div class="dense-list">
+        <p><strong>1st Prize</strong>, 16th International Micro Aerial Vehicle Competition, 2025.</p>
+        <p>Outstanding Undergraduate Graduate, Wuhan University, 2024.</p>
+        <p>Outstanding Undergraduate Thesis, Wuhan University, 2024.</p>
+        <p>"ZhiZhuo" Scholarship, Wuhan University, 2024.</p>
+        <p>Graduate Overseas Exchange Funding Scholarship, Wuhan University, 2024.</p>
+        <p><strong>National Grand Prize</strong>, 18th "Challenge Cup", 2023.</p>
+      </div>
+    </section>
+
+    <section class="compact-section">
+      <h2>Patents</h2>
       <ul class="plain-list">
         <li>3 granted CN invention patents. <a href="/patents/">Certificates</a></li>
+      </ul>
+    </section>
+
+    <section class="compact-section">
+      <h2>Talks</h2>
+      <ul class="plain-list">
         <li>IROS 2024 oral presentation. <a href="/talks/2024-10-14-iros-oral/">Talk page</a></li>
       </ul>
     </section>
