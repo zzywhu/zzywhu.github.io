@@ -11,10 +11,14 @@ redirect_from:
 <div class="home-grid">
   <aside class="profile-card">
     <img class="profile-card__photo" src="/images/author.jpg" alt="Zhiyu Zhou">
-    <h1>Zhiyu Zhou <span>周志宇</span></h1>
+    <h1>Zhiyu Zhou <span>(周志宇)</span></h1>
     <p class="profile-card__role">Ph.D. Student</p>
-    <p>School of Remote Sensing and Information Engineering<br>Wuhan University</p>
-    <p>Robotics · Multi-sensor Fusion · SLAM · Computer Vision</p>
+    <p>Wuhan University</p>
+    <div class="profile-card__block">
+      <h2>Education</h2>
+      <p><strong>2024.06 - 2029.04</strong><br>Ph.D., Wuhan University</p>
+      <p><strong>2020.09 - 2024.06</strong><br>B.E., Wuhan University</p>
+    </div>
     <div class="profile-card__links">
       <a href="mailto:zhouzhiyuwhu@whu.edu.cn">Email</a>
       <a href="https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl">Google Scholar</a>
@@ -25,7 +29,7 @@ redirect_from:
   <div class="home-main">
     <section class="compact-section">
       <h2>About</h2>
-      <p>I am a Ph.D. student at Wuhan University. My work focuses on robust perception, calibration, and multi-sensor understanding for intelligent robotic systems, especially camera-LiDAR calibration, visual/LiDAR-inertial estimation, and SLAM in challenging environments.</p>
+      <p>I am a Ph.D. student at Wuhan University. My research focuses on <strong class="text-accent">robust perception</strong>, <strong class="text-accent">multi-sensor calibration</strong>, and <strong class="text-accent">SLAM in challenging environments</strong>, with particular interest in camera-LiDAR calibration and visual/LiDAR-inertial estimation for intelligent robotic systems.</p>
     </section>
 
     <section class="compact-section">
@@ -67,21 +71,12 @@ redirect_from:
       <p class="inline-link"><a href="/publications/">All publications</a></p>
     </section>
 
-    <section class="compact-section two-col">
-      <div>
-        <h2>Education</h2>
-        <ul class="plain-list">
-          <li><strong>2024.06 - 2029.04</strong>, Ph.D., Wuhan University.</li>
-          <li><strong>2020.09 - 2024.06</strong>, B.E., Wuhan University.</li>
-        </ul>
-      </div>
-      <div>
-        <h2>Experience & Awards</h2>
-        <ul class="plain-list">
-          <li>AGIBOT, Shanghai, 2025.05 - 2025.11.</li>
-          <li>Outstanding Undergraduate Graduate, Wuhan University, 2024.</li>
-          <li>National Grand Prize, 18th "Challenge Cup", 2023.</li>
-        </ul>
+    <section class="compact-section">
+      <h2>Experience & Awards</h2>
+      <div class="dense-list">
+        <p><strong>AGIBOT</strong>, Shanghai, 2025.05 - 2025.11.</p>
+        <p>Outstanding Undergraduate Graduate, Wuhan University, 2024.</p>
+        <p>National Grand Prize, 18th "Challenge Cup", 2023.</p>
       </div>
     </section>
 
