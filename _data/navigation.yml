@@ -1,25 +1,28 @@
-# main links links
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+#
+# NOTE that only one of the CV options should be selected, the first is for the
+#      Markdown formatted page while the second is generated using JSON.
+
 main:
-  - title: "About me"
-    url: "/#about-me"
-
-  - title: "Education"
-    url: "/#education"
-
-  - title: "News"
-    url: "/#news"
+  - title: "Home"
+    url: /
 
   - title: "Publications"
-    url: "/#publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/    
 
   - title: "Patents"
-    url: "/#patents"
-
-  - title: "Awards"
-    url: "/#awards"
-
-  - title: "Invited Talks"
-    url: "/#invited-talks"
-
-  - title: "Internships"
-    url: "/#internships"
+    url: /patents/
+    
+  - title: "CV"
+    url: /cv/
+    
+  # - title: "CV"
+  #   url: /cv-json/
+    
