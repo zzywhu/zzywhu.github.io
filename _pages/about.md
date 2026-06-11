@@ -49,6 +49,13 @@ redirect_from:
     <section class="compact-section">
       <h2>First-Author Publications</h2>
       <div class="paper-list">
+       <article class="paper-card">
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
+          <div>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao. IEEE TIM, 2026.</p>
+          </div>
+        </article>
         <article class="paper-card">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
           <div>
