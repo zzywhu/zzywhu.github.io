@@ -52,8 +52,8 @@ redirect_from:
        <article class="paper-card">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
           <div>
-            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Zhi Gao. IEEE TIM, 2026.</p>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">R3LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate and Unstructured Environments</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao. ISPRS JPRS, 2026.</p>
           </div>
         </article>
         <article class="paper-card">
