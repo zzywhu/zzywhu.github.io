@@ -50,7 +50,7 @@ redirect_from:
       <h2>First-Author Publications</h2>
       <div class="paper-list">
        <article class="paper-card">
-          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/R3LIO(ISPRS)/out.gif" alt="R3LIO framework"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">R3LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate and Unstructured Environments</a></h3>
             <p><strong>Zhiyu Zhou</strong>, Zhi Gao. ISPRS JPRS, 2026.</p>
