@@ -385,6 +385,24 @@ body {
   text-align: left;
 }
 
+.news-list {
+  max-height: 8.2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: .35rem;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background: var(--global-border-color);
+  border-radius: 999px;
+}
+
 .paper-list {
   gap: .55rem;
 }
@@ -519,6 +537,11 @@ body {
   .news-list li {
     grid-template-columns: 3.75rem 1.15rem minmax(0, 1fr);
     margin: .16rem 0;
+  }
+
+  .news-list {
+    max-height: 7.4rem;
+    padding-right: .25rem;
   }
 
   .paper-card {
