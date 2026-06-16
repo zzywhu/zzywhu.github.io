@@ -3,9 +3,6 @@ permalink: /
 title:
 excerpt: "Zhiyu Zhou (周志宇), Ph.D. student at Wuhan University working on robotics, multi-sensor fusion, SLAM, and computer vision."
 author_profile: false
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 <div class="home-grid">
@@ -78,7 +75,19 @@ redirect_from:
           </div>
         </article>
       </div>
-      <p class="inline-link"><a href="/publications/">All publications</a></p>
+    </section>
+
+    <section class="compact-section">
+      <h2>Co-Authored Publications</h2>
+      <ol class="publication-list publication-list--compact">
+        <li><a href="https://ieeexplore.ieee.org/document/10591868">HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs</a><br>Wenbin Yang, Jingzhong Xu, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>ICCA, 2026.</em></li>
+        <li><a href="https://www.imavs.org/papers/2025/11.pdf">CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV</a><br>Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, <strong>Zhiyu Zhou</strong>, et al. <em>IMAV, 2025.</em></li>
+        <li><a href="https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49">Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration</a><br>Jingshi Wang, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>Electronics Letters, 2025.</em></li>
+        <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE ICRA, 2025.</em></li>
+        <li><a href="https://ieeexplore.ieee.org/document/10641455">Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition</a><br>Wenbo Sun, Yao Lu, Yichen Zhang, Yuhan Zhu, <strong>Zhiyu Zhou</strong>, et al. <em>IGARSS, 2024.</em></li>
+        <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE/RSJ IROS, 2024.</em></li>
+        <li><a href="https://ieeexplore.ieee.org/document/10591868">A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments</a><br>Xuhui Zhao, Zhi Gao, Jialiang Wang, <strong>Zhiyu Zhou</strong>, et al. <em>ICCA, 2024.</em></li>
+      </ol>
     </section>
 
     <section class="compact-section">
@@ -103,16 +112,21 @@ redirect_from:
 
     <section class="compact-section">
       <h2>Patents</h2>
-      <ul class="plain-list">
-        <li>3 granted CN invention patents. <a href="/patents/">Certificates</a></li>
-      </ul>
+      <ol class="publication-list publication-list--compact">
+        <li><a href="/patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf">针对弱结构长隧道环境的激光惯性里程计算方法及系统</a><br>Zhi Gao, <strong>Zhiyu Zhou</strong>. ZL 2025 1 0913162.2, CN 120411158 B. Granted: 2025-09-23.</li>
+        <li><a href="/patent/P2024000405-BI3243829（预审）-专利证书%20%281%29.pdf">室外大场景激光雷达点云地图的生成方法及装置</a><br>Zhi Gao, <strong>Zhiyu Zhou</strong>. ZL 2025 1 0301880.4, CN 119810360 B. Granted: 2025-07-22.</li>
+        <li><a href="/patent/2024基于机载建筑物LiDAR点云的立面线自动提取方法及设备-220783-发明专利证书.pdf">基于机载建筑物LiDAR点云的立面线自动提取方法及设备</a><br>Jingzhong Xu, <strong>Zhiyu Zhou</strong>, Xiangyun Hu, Chen Rao. ZL 2022 1 0379641.7, CN 114742843 B. Granted: 2024-11-22.</li>
+      </ol>
     </section>
 
     <section class="compact-section">
       <h2>Talks</h2>
-      <ul class="plain-list">
-        <li>IROS 2024 oral presentation. <a href="/talks/2024-10-14-iros-oral/">Talk page</a></li>
-      </ul>
+      <div class="talk-list">
+        <a class="talk-item" href="/talks/iros24.png">
+          <img src="/talks/iros24.png" alt="IROS 2024 oral presentation">
+          <span><strong>IROS 2024 oral presentation</strong><br>IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024.</span>
+        </a>
+      </div>
     </section>
   </div>
 </div>
