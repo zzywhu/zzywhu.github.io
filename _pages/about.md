@@ -51,7 +51,7 @@ author_profile: false
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/HiNav(ECCV)/demo.gif" alt="hinav framework"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">Hi-Nav: Hierarchical Framework for Continuous Vision-Language Navigation via Map Guidance and Waypoint Reasoning</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Bin Guan, Wenbin Yang, Zhi Gao and Hao Fang ECCV, 2026.</p>
+            <p><strong>Zhiyu Zhou</strong>, Bin Guan, Wenbin Yang, Zhi Gao and Hao Fang. ECCV, 2026.</p>
           </div>
         </article>
        <article class="paper-card">
