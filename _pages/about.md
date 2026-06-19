@@ -47,10 +47,17 @@ author_profile: false
     <section class="compact-section">
       <h2>First-Author Publications</h2>
       <div class="paper-list">
-       <article class="paper-card">
-          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/R3LIO(ISPRS)/out.gif" alt="R3LIO framework"></a>
+      <article class="paper-card">
+          <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/HiNav(ECCV)/demo.gif" alt="hinav framework"></a>
           <div>
-            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">R3LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate and Unstructured Environments</a></h3>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">Hi-Nav: Hierarchical Framework for Continuous Vision-Language Navigation via Map Guidance and Waypoint Reasoning</a></h3>
+            <p><strong>Zhiyu Zhou</strong>, Bin Guan, Wenbin Yang, Zhi Gao and Hao Fang ECCV, 2026.</p>
+          </div>
+        </article>
+       <article class="paper-card">
+          <a class="paper-card__media" href="https://www.sciencedirect.com/science/article/abs/pii/S0924271626003187"><img src="/images/R3LIO(ISPRS)/out.gif" alt="R3LIO framework"></a>
+          <div>
+            <h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271626003187">R3LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate and Unstructured Environments</a></h3>
             <p><strong>Zhiyu Zhou</strong>, Zhi Gao. ISPRS JPRS, 2026.</p>
           </div>
         </article>
