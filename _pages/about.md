@@ -131,6 +131,10 @@ author_profile: false
     <section class="compact-section">
       <h2>Talks</h2>
       <div class="talk-list">
+      <a class="talk-item" href="/talks/eccv26.png">
+          <img src="/talks/eccv26.png" alt="ECCV 2024 poster presentation">
+          <span><strong>ECCV 2026 poster presentation</strong><br>The 19th European Conference on Computer Vision.</span>
+        </a>
         <a class="talk-item" href="/talks/iros24.png">
           <img src="/talks/iros24.png" alt="IROS 2024 oral presentation">
           <span><strong>IROS 2024 oral presentation</strong><br>IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024.</span>
