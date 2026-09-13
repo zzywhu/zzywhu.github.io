@@ -1,0 +1,55 @@
+primary_name: "Zhiyu Zhou"
+secondary_name: "周志宇"
+navbar_name: "Zhiyu Zhou"
+
+positions:
+- name: Ph.D. Student
+- name: Wuhan University
+
+
+email: "zhouzhiyuwhu@whu.edu.cn"
+# cv_link: link-to-your-cv-file
+gscholar: "https://scholar.google.com/citations?user=-KEimXoAAAAJ&hl"
+github: zzywhu
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>I am a Ph.D. student at Wuhan University. My research focuses on <strong>robust perception</strong>, <strong>multi-sensor calibration</strong>, and <strong>SLAM in challenging environments</strong>, with particular interest in camera-LiDAR calibration and visual/LiDAR-inertial estimation for intelligent robotic systems.</p>
+
+portrait_url: /images/author.jpg
+portrait_caption: Zhiyu Zhou
+
+education:
+- name: Wuhan University
+  position: Ph.D., 2024.06 - 2029.04
+  date: 2024 - present
+- name: Wuhan University
+  position: B.E., 2020.09 - 2024.06
+  date: 2020 - 2024
+
+experience:
+- name: AGIBOT (智元机器人 全域算法部)
+  position: Research Intern, Shanghai
+  date: 2025.05 - 2025.11
+- name: 中船重工716研究所
+  position: Research Intern, Lianyungang
+  date: 2024.06 - 2024.09
+
+awards:
+- name: 1st Prize, 16th International Micro Aerial Vehicle Competition
+  date: 2025
+- name: Outstanding Undergraduate Graduate, Wuhan University
+  date: 2024
+- name: Outstanding Undergraduate Thesis, Wuhan University
+  date: 2024
+- name: '"ZhiZhuo" Scholarship, Wuhan University'
+  date: 2024
+- name: Graduate Overseas Exchange Funding Scholarship, Wuhan University
+  date: 2024
+- name: 'National Grand Prize, 18th "Challenge Cup"'
+  date: 2023
