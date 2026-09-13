@@ -32,14 +32,52 @@ navbar_title: Home
         %}
         {% endif %}
 
-        <div class="row mt-3">
-            <div class="col-md-6 mb-3 mb-md-0">
-                <a class="btn btn-block btn-outline-primary" href="{{ '/patents' | relative_url }}"><i
-                        class="fas fa-scroll"></i> Patents</a>
-            </div>
-            <div class="col-md-6">
-                <a class="btn btn-block btn-outline-primary" href="{{ '/talks' | relative_url }}"><i
-                        class="fas fa-microphone"></i> Talks</a>
+        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-scroll"></i> Patents <a
+                    href="{{ '/patents' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a></h6>
+            <ol class="p-3 pl-5 mb-0">
+                <li class="mb-2"><a href="/patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf"
+                        target="_blank">针对弱结构长隧道环境的激光惯性里程计算方法及系统</a><br><span class="small">Zhi Gao, <strong>Zhiyu
+                            Zhou</strong>. CN 120411158 B. Granted: 2025-09-23.</span></li>
+                <li class="mb-2"><a
+                        href="/patent/P2024000405-BI3243829%EF%BC%88%E9%A2%84%E5%AE%A1%EF%BC%89-%E4%B8%93%E5%88%A9%E8%AF%81%E4%B9%A6%20%281%29.pdf"
+                        target="_blank">室外大场景激光雷达点云地图的生成方法及装置</a><br><span class="small">Zhi Gao, <strong>Zhiyu
+                            Zhou</strong>. CN 119810360 B. Granted: 2025-07-22.</span></li>
+                <li><a href="/patent/2024%E5%9F%BA%E4%BA%8E%E6%9C%BA%E8%BD%BD%E5%BB%BA%E7%AD%91%E7%89%A9LiDAR%E7%82%B9%E4%BA%91%E7%9A%84%E7%AB%8B%E9%9D%A2%E7%BA%BF%E8%87%AA%E5%8A%A8%E6%8F%90%E5%8F%96%E6%96%B9%E6%B3%95%E5%8F%8A%E8%AE%BE%E5%A4%87-220783-%E5%8F%91%E6%98%8E%E4%B8%93%E5%88%A9%E8%AF%81%E4%B9%A6.pdf"
+                        target="_blank">基于机载建筑物 LiDAR 点云的立面线自动提取方法及设备</a><br><span class="small">Jingzhong Xu,
+                        <strong>Zhiyu Zhou</strong>, Xiangyun Hu, Chen Rao. CN 114742843 B. Granted: 2024-11-22.</span>
+                </li>
+            </ol>
+        </div>
+
+        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-microphone"></i> Talks & Presentations <a
+                    href="{{ '/talks' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a></h6>
+            <div class="row p-3">
+                <div class="col-md-6 mb-3">
+                    <a href="/talks/eccv26.png" target="_blank" class="text-decoration-none">
+                        <div class="card resource-card border-0 shadow-sm">
+                            <img src="/talks/eccv26.png" alt="ECCV 2026 poster presentation">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">ECCV 2026 poster presentation</h5>
+                                <p class="card-text text-muted mb-0">The 19th European Conference on Computer Vision.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <a href="/talks/iros24.png" target="_blank" class="text-decoration-none">
+                        <div class="card resource-card border-0 shadow-sm">
+                            <img src="/talks/iros24.png" alt="IROS 2024 oral presentation">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">IROS 2024 oral presentation</h5>
+                                <p class="card-text text-muted mb-0">IEEE/RSJ International Conference on Intelligent
+                                    Robots and Systems, 2024.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
