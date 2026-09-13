@@ -47,39 +47,39 @@ author_profile: false
     <section class="compact-section">
       <h2>First-Author Publications</h2>
       <div class="paper-list">
-      <article class="paper-card">
+      <article class="paper-card paper-card--featured">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/HiNav(ECCV)/demo.gif" alt="hinav framework"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">Hi-Nav: Hierarchical Framework for Continuous Vision-Language Navigation via Map Guidance and Waypoint Reasoning</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Bin Guan, Wenbin Yang, Zhi Gao and Hao Fang. ECCV, 2026.</p>
+            <p><strong>Zhiyu Zhou</strong>, Bin Guan, Wenbin Yang, Zhi Gao and Hao Fang. <span class="publication-venue">ECCV 2026</span>.</p>
           </div>
         </article>
        <article class="paper-card">
           <a class="paper-card__media" href="https://www.sciencedirect.com/science/article/abs/pii/S0924271626003187"><img src="/images/R3LIO(ISPRS)/out.gif" alt="R3LIO framework"></a>
           <div>
             <h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271626003187">R3LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate and Unstructured Environments</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Zhi Gao. ISPRS JPRS, 2026.</p>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao. <span class="publication-venue">ISPRS JPRS 2026</span>.</p>
           </div>
         </article>
         <article class="paper-card">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11495237"><img src="/images/EasyCalib(TIM)/framework.png" alt="EasyCalib framework"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/abstract/document/11495237">EasyCalib: A Novel Target for High-Accuracy Fully-Automatic Extrinsic Calibration of Camera and LiDAR</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, et al. IEEE TIM, 2026.</p>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, et al. <span class="publication-venue">IEEE TIM 2026</span>.</p>
           </div>
         </article>
         <article class="paper-card">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/abstract/document/11373843"><img src="/images/EasyColor(RAL)/out.gif" alt="EasyColor result"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/abstract/document/11373843">EasyColor: Reflectivity Assisted Dense Point Cloud RGB Colorizing Without Accurate Time Synchronization and Extrinsic Calibration</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Yong Li, Hang Zhen. IEEE RA-L, 2026.</p>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Yong Li, Hang Zhen. <span class="publication-venue">IEEE RA-L 2026</span>.</p>
           </div>
         </article>
         <article class="paper-card">
           <a class="paper-card__media" href="https://ieeexplore.ieee.org/document/10497093"><img src="/images/TBD(RAL)/out.gif" alt="Tracking by Detection result"></a>
           <div>
             <h3><a href="https://ieeexplore.ieee.org/document/10497093">Tracking by Detection: Robust Indoor RGB-D Odometry Leveraging Key Local Manhattan World</a></h3>
-            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Jingzhong Xu. IEEE RA-L, 2024.</p>
+            <p><strong>Zhiyu Zhou</strong>, Zhi Gao, Jingzhong Xu. <span class="publication-venue">IEEE RA-L 2024</span>.</p>
           </div>
         </article>
       </div>
@@ -88,35 +88,35 @@ author_profile: false
     <section class="compact-section">
       <h2>Co-Authored Publications</h2>
       <ol class="publication-list publication-list--compact">
-        <li><a href="https://doi.org/10.1016/j.cja.2026.104455">Design and implementation of autonomous MAV system for search and rescue: Champion solution for IMAV 2025 competition</a><br>Jialiang WANG, Zongzhou WU, Haotian CHEN, Jiwen XU, Yanqi ZHAO, Zhipeng LIN, Xinyu GUO, Ruixin YAN, <strong>Zhiyu ZHOU</strong>, et al. <em>Chinese Journal of Aeronautics, 2026.</em></li>
-        <li><a href="https://ieeexplore.ieee.org/document/10591868">HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs</a><br>Wenbin Yang, Jingzhong Xu, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>ICCA, 2026.</em></li>
-        <li><a href="https://www.imavs.org/papers/2025/11.pdf">CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV</a><br>Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, <strong>Zhiyu Zhou</strong>, et al. <em>IMAV, 2025.</em></li>
-        <li><a href="https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49">Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration</a><br>Jingshi Wang, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>Electronics Letters, 2025.</em></li>
-        <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE ICRA, 2025.</em></li>
-        <li><a href="https://ieeexplore.ieee.org/document/10641455">Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition</a><br>Wenbo Sun, Yao Lu, Yichen Zhang, Yuhan Zhu, <strong>Zhiyu Zhou</strong>, et al. <em>IGARSS, 2024.</em></li>
-        <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <em>IEEE/RSJ IROS, 2024.</em></li>
-        <li><a href="https://ieeexplore.ieee.org/document/10591868">A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments</a><br>Xuhui Zhao, Zhi Gao, Jialiang Wang, <strong>Zhiyu Zhou</strong>, et al. <em>ICCA, 2024.</em></li>
+        <li><a href="https://doi.org/10.1016/j.cja.2026.104455">Design and implementation of autonomous MAV system for search and rescue: Champion solution for IMAV 2025 competition</a><br>Jialiang WANG, Zongzhou WU, Haotian CHEN, Jiwen XU, Yanqi ZHAO, Zhipeng LIN, Xinyu GUO, Ruixin YAN, <strong>Zhiyu ZHOU</strong>, et al. <span class="publication-venue">Chinese Journal of Aeronautics 2026</span>.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/10591868">HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs</a><br>Wenbin Yang, Jingzhong Xu, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">ICCA 2026</span>.</li>
+        <li><a href="https://www.imavs.org/papers/2025/11.pdf">CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV</a><br>Jialiang Wang, Yijun Huang, Yizhou Chen, Zongzhou Wu, Qigeng Duan, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">IMAV 2025</span>.</li>
+        <li><a href="https://www.semanticscholar.org/paper/Extrinsic-Calibration-of-LiDAR-and-Camera-via-Deep-Wang-Lin/1baef9dec3507a7e14e1d0b2e14a906759cc5e49">Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration</a><br>Jingshi Wang, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">Electronics Letters 2025</span>.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/11127522">Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation</a><br>Xinyu Guo, Zhi Gao, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">IEEE ICRA 2025</span>.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/10641455">Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition</a><br>Wenbo Sun, Yao Lu, Yichen Zhang, Yuhan Zhu, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">IGARSS 2024</span>.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/10802610">Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration</a><br>Jialiang Wang, Zhi Gao, Zhipeng Lin, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">IEEE/RSJ IROS 2024</span>.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/10591868">A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments</a><br>Xuhui Zhao, Zhi Gao, Jialiang Wang, <strong>Zhiyu Zhou</strong>, et al. <span class="publication-venue">ICCA 2024</span>.</li>
       </ol>
     </section>
 
     <section class="compact-section">
       <h2>Experience</h2>
-      <div class="dense-list">
-        <p><strong>AGIBOT (智元机器人 全域算法部)</strong>, Shanghai, 2025.05 - 2025.11.</p>
-        <p><strong>中船重工716研究所</strong>, Lianyungang, 2024.06 - 2024.09.</p>
-      </div>
+      <ol class="dense-list">
+        <li><strong>AGIBOT (智元机器人 全域算法部)</strong>, Shanghai, 2025.05 - 2025.11.</li>
+        <li><strong>中船重工716研究所</strong>, Lianyungang, 2024.06 - 2024.09.</li>
+      </ol>
     </section>
 
     <section class="compact-section">
       <h2>Awards</h2>
-      <div class="dense-list">
-        <p><strong>1st Prize</strong>, 16th International Micro Aerial Vehicle Competition, 2025.</p>
-        <p><strong>Outstanding Undergraduate Graduate</strong>, Wuhan University, 2024.</p>
-        <p><strong>Outstanding Undergraduate Thesis</strong>, Wuhan University, 2024.</p>
-        <p><strong>"ZhiZhuo" Scholarship</strong>, Wuhan University, 2024.</p>
-        <p><strong>Graduate Overseas Exchange Funding Scholarship</strong>, Wuhan University, 2024.</p>
-        <p><strong>National Grand Prize</strong>, 18th "Challenge Cup", 2023.</p>
-      </div>
+      <ol class="dense-list">
+        <li><strong>1st Prize</strong>, 16th International Micro Aerial Vehicle Competition, 2025.</li>
+        <li><strong>Outstanding Undergraduate Graduate</strong>, Wuhan University, 2024.</li>
+        <li><strong>Outstanding Undergraduate Thesis</strong>, Wuhan University, 2024.</li>
+        <li><strong>"ZhiZhuo" Scholarship</strong>, Wuhan University, 2024.</li>
+        <li><strong>Graduate Overseas Exchange Funding Scholarship</strong>, Wuhan University, 2024.</li>
+        <li><strong>National Grand Prize</strong>, 18th "Challenge Cup", 2023.</li>
+      </ol>
     </section>
 
     <section class="compact-section">

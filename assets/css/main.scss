@@ -1,5 +1,4 @@
----
----
+--- ---
 /*
  * This file controls what is imported from /_sass
  *
@@ -22,7 +21,7 @@
 "include/utilities",
 "layout/tables",
 "layout/buttons",
-    "layout/notices",
+"layout/notices",
 "layout/footer",
 "syntax",
 
@@ -30,7 +29,7 @@
 
 "layout/page",
 "layout/archive",
-    "layout/sidebar",
+"layout/sidebar",
 
 "vendor/font-awesome/fontawesome",
 "vendor/font-awesome/solid",
@@ -211,6 +210,15 @@ h3 {
   border-radius: 0;
 }
 
+.paper-card--featured {
+  grid-template-columns: minmax(260px, 1.15fr) minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: .85rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-link-color);
+  background: color-mix(in srgb, var(--global-link-color) 5%, var(--global-bg-color));
+}
+
 .paper-card__media {
   display: block;
   overflow: hidden;
@@ -236,6 +244,29 @@ h3 {
   margin: 0;
   color: var(--global-text-color-light);
   font-size: .86rem;
+}
+
+.publication-venue {
+  display: inline-block;
+  margin-left: .15rem;
+  padding: .08rem .42rem;
+  border-radius: 999px;
+  background: var(--global-link-color);
+  color: var(--global-bg-color);
+  font-size: .78em;
+  font-weight: 800;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+
+.dense-list {
+  margin: 0;
+  padding-left: 1.55rem;
+}
+
+.dense-list li {
+  margin: .2rem 0;
+  padding-left: .2rem;
 }
 
 .sidebar .author__avatar img {
@@ -413,16 +444,17 @@ body {
   padding: .5rem 0;
 }
 
+.paper-card--featured {
+  grid-template-columns: minmax(220px, 1.15fr) minmax(0, 1fr);
+  padding: .7rem;
+}
+
 .paper-card h3 {
   font-size: .9rem;
 }
 
 .paper-card p {
   font-size: .8rem;
-}
-
-.dense-list p {
-  margin: .2rem 0;
 }
 
 .profile-card {
@@ -551,6 +583,16 @@ body {
     padding: .55rem 0;
   }
 
+  .paper-card--featured {
+    grid-template-columns: 1fr;
+    gap: .65rem;
+    padding: .65rem;
+  }
+
+  .paper-card--featured .paper-card__media img {
+    aspect-ratio: 16 / 9;
+  }
+
   .paper-card__media img {
     aspect-ratio: 4 / 3;
   }
@@ -566,7 +608,7 @@ body {
     line-height: 1.35;
   }
 
-  .dense-list p,
+  .dense-list li,
   .plain-list li {
     margin-bottom: .18rem;
   }
@@ -583,6 +625,7 @@ body {
 }
 
 @media (max-width: 420px) {
+
   .paper-card,
   .talk-item {
     grid-template-columns: 1fr;
