@@ -73,12 +73,12 @@ h6,
 .publication-cover-column img {
     width: 100%;
     height: auto;
-    max-height: 360px;
+    max-height: 300px;
     object-fit: contain;
 }
 
 .publication-item--featured .publication-cover-column img {
-    max-height: 420px;
+    max-height: 340px;
 }
 
 .publication-item--featured h5 {
@@ -101,7 +101,7 @@ h6,
 
 .publication-cover-mobile {
     height: auto;
-    max-height: 320px;
+    max-height: 280px;
     object-fit: contain;
 }
 
@@ -116,7 +116,7 @@ h6,
     .publication-cover-column img,
     .publication-item--featured .publication-cover-column img {
         height: auto;
-        max-height: 260px;
+        max-height: 230px;
     }
 }
 
