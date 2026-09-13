@@ -14,5 +14,6 @@ authors:
   - Zhi Gao
   - Hao Fang
 links:
-  Paper: https://ieeexplore.ieee.org/abstract/document/11495237
+  Paper: https://link.springer.com/chapter/10.1007/978-3-032-37359-5_7
+  Project Page: https://hiway-page.github.io/
 ---
