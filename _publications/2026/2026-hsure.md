@@ -6,6 +6,7 @@ pub: "IEEE International Conference on Control, Automation and Systems (ICCA)"
 pub_date: "2026"
 abstract: >-
   A hierarchical safety-aware exploration method guided by unknown regions and dynamic sparse graphs.
+cover: /images/hsure/image.png
 authors:
   - Wenbin Yang
   - Jingzhong Xu

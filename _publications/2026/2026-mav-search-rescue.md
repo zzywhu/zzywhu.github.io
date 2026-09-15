@@ -6,6 +6,7 @@ pub: "Chinese Journal of Aeronautics"
 pub_date: "2026"
 abstract: >-
   The champion autonomous MAV system developed for search and rescue in the IMAV 2025 competition.
+cover: /images/imav/image.png
 authors:
   - Jialiang WANG
   - Zongzhou WU

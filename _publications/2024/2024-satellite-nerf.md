@@ -6,6 +6,7 @@ pub: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
 pub_date: "2024"
 abstract: >-
   Neural radiance fields for multi-view satellite photogrammetry with intrinsic decomposition.
+cover: /images/nerf/image.png
 authors:
   - Wenbo Sun
   - Yao Lu

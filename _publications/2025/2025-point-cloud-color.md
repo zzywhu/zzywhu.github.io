@@ -6,6 +6,7 @@ pub: "IEEE International Conference on Robotics and Automation (ICRA)"
 pub_date: "2025"
 abstract: >-
   A method for improving the use of RGB color information in point cloud semantic segmentation.
+cover: /images/color/image.png
 authors:
   - Xinyu Guo
   - Zhi Gao

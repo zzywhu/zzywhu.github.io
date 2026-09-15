@@ -6,6 +6,7 @@ pub: "Electronics Letters"
 pub_date: "2025"
 abstract: >-
   An intensity-aware deep line registration method for extrinsic calibration between LiDAR and camera.
+cover: /images/calib/image.png
 authors:
   - Jingshi Wang
   - Zhipeng Lin

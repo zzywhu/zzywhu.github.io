@@ -6,6 +6,7 @@ pub: "IEEE International Conference on Control and Automation (ICCA)"
 pub_date: "2024"
 abstract: >-
   A robust visual-inertial SLAM system for environments with degraded visual observations.
+cover: /images/vslam/image.png
 authors:
   - Xuhui Zhao
   - Zhi Gao

@@ -6,6 +6,7 @@ pub: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 pub_date: "2024"
 abstract: >-
   An accurate and efficient loop closure detection method combining deep binary image descriptors with augmented point cloud registration.
+cover: /images/loop/image.png
 authors:
   - Jialiang Wang
   - Zhi Gao
