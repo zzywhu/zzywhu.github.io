@@ -80,5 +80,21 @@ navbar_title: Home
                 </div>
             </div>
         </div>
+
+        {% if site.data.profile.awards %}
+        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-award"></i> Honors & Awards</h6>
+            <ol class="p-3 pl-5 mb-0 small">
+                {% for item in site.data.profile.awards %}
+                <li class="mb-2">
+                    <div class="d-flex">
+                        <div>{{ item.name }}</div>
+                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        {% endif %}
     </div>
 </div>
