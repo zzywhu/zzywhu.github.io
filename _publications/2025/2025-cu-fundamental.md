@@ -13,6 +13,7 @@ authors:
   - Zongzhou Wu
   - Qigeng Duan
   - Zhiyu Zhou
+cover: /images/CU/image.png
 links:
   Paper: https://www.imavs.org/papers/2025/11.pdf
 ---
