@@ -9,3 +9,5 @@ pages:
   url: /patents
 - name: Talks
   url: /talks
+- name: 中文简历
+  url: /files/resume-zh_CN.pdf
