@@ -26,12 +26,12 @@ portrait_caption: Zhiyu Zhou
 
 education:
 - name: Wuhan University
-  logo: /assets/images/badges/wuhan-university.png
-  position: Ph.D., Robotics.
+  logo: /whu.jpeg
+  position: Ph.D., Robotics
   date: 2024 - present
 - name: Wuhan University
-  logo: /assets/images/badges/wuhan-university.png
-  position: B.E. of Engineering.
+  logo: /whu.jpeg
+  position: B.E.
   date: 2020 - 2024
 
 experience:
