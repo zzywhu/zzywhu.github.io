@@ -3,7 +3,14 @@
     <div
         class="row no-gutters publication-item {% if item.selected %}publication-item--featured{% endif %} {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-6 col-xl-6 mb-md-0 p-md-3 publication-cover-column">
-            {%- if item.cover -%}
+            {%- if item.video -%}
+            <video class="publication-cover-media w-100 rounded-sm" controls muted loop playsinline preload="metadata">
+                <source src="{{ item.video | relative_url }}" type="video/mp4">
+            </video>
+            {%- elsif item.gif -%}
+            <img data-src="{{ item.gif | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm"
+                src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+            {%- elsif item.cover -%}
             <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm"
                 src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
             {%- else -%}
@@ -38,7 +45,14 @@
     <div class="w-100 {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}"
         style="background-color: rgba(255,255,255,0.9);">
         <div class="d-flex align-items-start flex-column py-3 px-4">
-            {% if item.cover %}<img src="{{ item.cover | relative_url }}" alt="{{ item.title }}"
+            {% if item.video %}
+            <video class="publication-cover-mobile-video w-100 rounded-sm mb-3" controls muted loop playsinline preload="metadata">
+                <source src="{{ item.video | relative_url }}" type="video/mp4">
+            </video>
+            {% elsif item.gif %}
+            <img src="{{ item.gif | relative_url }}" alt="{{ item.title }}"
+                class="publication-cover-mobile w-100 rounded-sm mb-3">
+            {% elsif item.cover %}<img src="{{ item.cover | relative_url }}" alt="{{ item.title }}"
                 class="publication-cover-mobile w-100 rounded-sm mb-3">{% endif %}
             <div class="mb-auto"></div>
             <div>

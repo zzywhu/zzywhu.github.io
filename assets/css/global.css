@@ -81,6 +81,14 @@ h6,
     object-fit: contain;
 }
 
+.publication-cover-column video,
+.publication-cover-mobile-video {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
 .publication-item--featured .publication-cover-column img {
     max-height: 340px;
 }
@@ -120,6 +128,11 @@ h6,
     .publication-cover-column img,
     .publication-item--featured .publication-cover-column img {
         height: auto;
+        max-height: 230px;
+    }
+
+    .publication-cover-column video,
+    .publication-cover-mobile-video {
         max-height: 230px;
     }
 }
