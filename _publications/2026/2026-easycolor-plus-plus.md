@@ -12,7 +12,7 @@ authors:
   - Jialiang Wang
 
 # Add a visual cover when it is available:
-cover: /videos/EasyColor++/demo.mp4
+cover: /images/EasyColor++/demo.gif
 
 # Add one of these optional media fields when the video or GIF is ready:
 # video: /videos/EasyColor++/demo.mp4
