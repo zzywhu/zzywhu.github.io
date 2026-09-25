@@ -71,14 +71,22 @@ h6,
 }
 
 .education-logo {
-    width: 42px;
-    height: 42px;
-    flex: 0 0 42px;
+    display: block;
+    width: 48px !important;
+    height: 48px !important;
+    max-width: 48px !important;
+    max-height: 48px !important;
+    flex: 0 0 48px;
     object-fit: contain;
     border-radius: 50%;
 }
 
+.education-item {
+    align-items: flex-start;
+}
+
 .education-item .media-body {
+    flex: 1 1 auto;
     min-width: 0;
 }
 
@@ -141,6 +149,14 @@ h6,
     .publication-item--featured .publication-cover-column img {
         height: auto;
         max-height: 230px;
+    }
+
+    .education-logo {
+        width: 36px !important;
+        height: 36px !important;
+        max-width: 36px !important;
+        max-height: 36px !important;
+        flex-basis: 36px;
     }
 
     .publication-cover-column video,
