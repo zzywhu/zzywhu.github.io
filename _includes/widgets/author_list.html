@@ -43,9 +43,11 @@
     {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%} </span>
         {%- endif -%}
 
-        {%- endfor -%}
+{%- endfor -%}
 
+{%- if include.et_al -%}
         , et al.
+{%- endif -%}
 
         {%- if has_eq_contrib or has_corresponding %}
         <mark>(
