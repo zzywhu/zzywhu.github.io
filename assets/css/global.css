@@ -70,6 +70,18 @@ h6,
     white-space: nowrap;
 }
 
+.education-logo {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.education-item .media-body {
+    min-width: 0;
+}
+
 .publication-item {
     margin-bottom: .9rem;
 }

@@ -9,9 +9,9 @@
                             <h6>Education</h6>
                             <ol class="mb-1 pl-4">
                                 {% for item in site.data.profile.education %}
-                                <li class="media mb-1">
+                                <li class="media mb-1 education-item">
                                     {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}"
-                                        style="width: 18px;" class="mr-1 mt-1">{% endif %}
+                                        class="education-logo mr-3 mt-1">{% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
