@@ -1,100 +1,61 @@
 ---
 layout: default
-title : Homepage
-navbar_title: Home
+title: Homepage
 ---
-
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
+{% assign profile = site.data.profile %}
+<header class="intro">
+    <div>
+        <h1>{{ profile.primary_name }} <span lang="zh">| {{ profile.secondary_name }}</span></h1>
+        {{ profile.short_bio }}
+        <nav class="profile-links" aria-label="Contact and profiles">
+            {% if profile.cv_link %}<a href="{{ profile.cv_link | relative_url }}">CV</a><span>·</span>{% endif %}
+            <a href="https://github.com/{{ profile.github }}">GitHub</a><span>·</span>
+            <a href="{{ profile.gscholar }}">Google Scholar</a><span>·</span>
+            <a href="mailto:{{ profile.email }}">Email</a><span>·</span>
+            <a href="{{ '/files/resume-zh_CN.pdf' | relative_url }}">中文简历</a>
+        </nav>
     </div>
-    <div class="col-lg-9 col-md-8">
-
-        {% include widgets/profile_card_bio_only.html %}
-
-        {% if site.data.display.homepage.show_experience %}
-        {% include widgets/experience_card.html %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
-
-        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
-            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-scroll"></i> Patents <a
-                    href="{{ '/patents' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a></h6>
-            <ol class="p-3 pl-5 mb-0">
-                <li class="mb-2"><a href="/patent/2025109131622-证书-武汉大学-针对弱结构长隧道环境的激光惯性里程计算方法及系统%20%281%29.pdf"
-                        target="_blank">针对弱结构长隧道环境的激光惯性里程计算方法及系统</a><br><span class="small">Zhi Gao, <strong>Zhiyu
-                            Zhou</strong>. CN 120411158 B. Granted: 2025-09-23.</span></li>
-                <li class="mb-2"><a
-                        href="/patent/P2024000405-BI3243829%EF%BC%88%E9%A2%84%E5%AE%A1%EF%BC%89-%E4%B8%93%E5%88%A9%E8%AF%81%E4%B9%A6%20%281%29.pdf"
-                        target="_blank">室外大场景激光雷达点云地图的生成方法及装置</a><br><span class="small">Zhi Gao, <strong>Zhiyu
-                            Zhou</strong>. CN 119810360 B. Granted: 2025-07-22.</span></li>
-                <li><a href="/patent/2024%E5%9F%BA%E4%BA%8E%E6%9C%BA%E8%BD%BD%E5%BB%BA%E7%AD%91%E7%89%A9LiDAR%E7%82%B9%E4%BA%91%E7%9A%84%E7%AB%8B%E9%9D%A2%E7%BA%BF%E8%87%AA%E5%8A%A8%E6%8F%90%E5%8F%96%E6%96%B9%E6%B3%95%E5%8F%8A%E8%AE%BE%E5%A4%87-220783-%E5%8F%91%E6%98%8E%E4%B8%93%E5%88%A9%E8%AF%81%E4%B9%A6.pdf"
-                        target="_blank">基于机载建筑物 LiDAR 点云的立面线自动提取方法及设备</a><br><span class="small">Jingzhong Xu,
-                        <strong>Zhiyu Zhou</strong>, Xiangyun Hu, Chen Rao. CN 114742843 B. Granted: 2024-11-22.</span>
-                </li>
-            </ol>
-        </div>
-
-        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
-            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-microphone"></i> Talks & Presentations <a
-                    href="{{ '/talks' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a></h6>
-            <div class="row p-3">
-                <div class="col-md-6 mb-3">
-                    <a href="/talks/eccv26.png" target="_blank" class="text-decoration-none">
-                        <div class="card resource-card border-0 shadow-sm">
-                            <img src="/talks/eccv26.png" alt="ECCV 2026 poster presentation">
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">ECCV 2026 poster presentation</h5>
-                                <p class="card-text text-muted mb-0">The 19th European Conference on Computer Vision.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <a href="/talks/iros24.png" target="_blank" class="text-decoration-none">
-                        <div class="card resource-card border-0 shadow-sm">
-                            <img src="/talks/iros24.png" alt="IROS 2024 oral presentation">
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">IROS 2024 oral presentation</h5>
-                                <p class="card-text text-muted mb-0">IEEE/RSJ International Conference on Intelligent
-                                    Robots and Systems, 2024.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        {% if site.data.profile.awards %}
-        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
-            <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-award"></i> Honors & Awards</h6>
-            <ol class="p-3 pl-5 mb-0 small">
-                {% for item in site.data.profile.awards %}
-                <li class="mb-2">
-                    <div class="d-flex">
-                        <div>{{ item.name }}</div>
-                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ol>
-        </div>
-        {% endif %}
+    <img class="portrait" src="{{ profile.portrait_url | relative_url }}" alt="{{ profile.portrait_caption | escape }}" width="160" height="160">
+</header>
+{% if site.data.display.homepage.show_news %}
+<section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+        {% assign news = site.news | sort: 'date' | reverse %}
+        {% for item in news limit:site.data.display.homepage.num_news %}
+        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div>{{ item.title | markdownify }}</div></li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+<section id="research">
+    <div class="section-heading"><h2>Research</h2><a href="{{ profile.gscholar }}">Google Scholar ↗</a></div>
+    <div class="research-tabs" role="tablist" aria-label="Research outputs">
+        <button id="tab-publications" role="tab" aria-selected="true" aria-controls="panel-publications" tabindex="0">Publications</button>
+        <button id="tab-patents" role="tab" aria-selected="false" aria-controls="panel-patents" tabindex="-1">Patents</button>
+        <button id="tab-talks" role="tab" aria-selected="false" aria-controls="panel-talks" tabindex="-1">Talks & Presentations</button>
     </div>
-</div>
+    <div id="panel-publications" role="tabpanel" aria-labelledby="tab-publications">
+        <p class="output-link"><a href="{{ '/publications' | relative_url }}">All publications →</a></p>
+        {% assign pubs = site.publications | sort: 'date' | reverse %}
+        {% for item in pubs %}{% include widgets/publication_item.html item=item %}{% endfor %}
+    </div>
+    <div id="panel-patents" role="tabpanel" aria-labelledby="tab-patents">
+        <p class="output-link"><a href="{{ '/patents' | relative_url }}">All patents →</a></p>
+        {% include patent_list.html %}
+    </div>
+    <div id="panel-talks" role="tabpanel" aria-labelledby="tab-talks">
+        <p class="output-link"><a href="{{ '/talks' | relative_url }}">All talks →</a></p>
+        <ul class="plain-list">
+            <li><a href="{{ '/talks/eccv26.png' | relative_url }}">ECCV 2026 poster presentation</a></li>
+            <li><a href="{{ '/talks/iros24.png' | relative_url }}">IROS 2024 oral presentation</a></li>
+        </ul>
+    </div>
+</section>
+<script src="{{ '/assets/js/research-tabs.js' | relative_url }}" defer></script>
+{% if profile.awards %}
+<section id="awards">
+    <h2>Honors & Awards</h2>
+    <ul class="timeline">{% for item in profile.awards %}<li><div>{{ item.name }}</div><span>{{ item.date }}</span></li>{% endfor %}</ul>
+</section>
+{% endif %}

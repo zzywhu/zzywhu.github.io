@@ -19,7 +19,7 @@ github: zzywhu
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>I am a Ph.D. student at Wuhan University. My research focuses on <strong>robust perception</strong>, <strong>multi-sensor calibration</strong>, and <strong>SLAM in challenging environments</strong>, with particular interest in camera-LiDAR calibration and visual/LiDAR-inertial estimation for intelligent robotic systems.</p>
+  <p>I am a Ph.D. student in Robotics at Wuhan University, where I received my B.E. in 2024. My research focuses on <strong>robust perception</strong>, <strong>multi-sensor calibration</strong>, and <strong>SLAM in challenging environments</strong>, with particular interest in camera-LiDAR calibration and visual/LiDAR-inertial estimation for intelligent robotic systems. Previously, I was a research intern at AGIBOT’s General Algorithm Department in Shanghai (May–November 2025) and at the 716 Research Institute of China Shipbuilding Industry Corporation in Lianyungang (June–September 2024).</p>
 
 portrait_url: /images/author.jpg
 portrait_caption: Zhiyu Zhou
