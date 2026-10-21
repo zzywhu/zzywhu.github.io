@@ -20,7 +20,8 @@ section { margin-bottom: 38px; scroll-margin-top: 24px; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .section-heading > a { font-size: 13px; white-space: nowrap; }
 .news-list, .timeline, .plain-list { padding: 0; margin: 0; list-style: none; }
-.news-list li { display: grid; grid-template-columns: 85px 1fr; gap: 14px; margin-bottom: 8px; font-size: 14px; }
+.news-list li { display: grid; grid-template-columns: 85px 22px minmax(0, 1fr); gap: 10px; margin-bottom: 8px; font-size: 14px; }
+.news-icon { text-align: center; }
 .news-list time { color: #777; font-variant-numeric: tabular-nums; }
 .news-list p { margin: 0; }
 .research-item { display: grid; grid-template-columns: 190px 1fr; gap: 25px; align-items: center; margin: 0 0 30px; }

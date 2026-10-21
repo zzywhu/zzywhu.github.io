@@ -23,7 +23,7 @@ title: Homepage
     <ul class="news-list">
         {% assign news = site.news | sort: 'date' | reverse %}
         {% for item in news limit:site.data.display.homepage.num_news %}
-        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div>{{ item.title | markdownify }}</div></li>
+        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><span class="news-icon" aria-hidden="true">{{ item.icon | default: '📌' }}</span><div>{{ item.title | markdownify }}</div></li>
         {% endfor %}
     </ul>
 </section>
