@@ -19,7 +19,10 @@ github: zzywhu
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>I am a Ph.D. student in Robotics at Wuhan University, where I received my B.E. in 2024. My research focuses on <strong>robust perception</strong>, <strong>multi-sensor calibration</strong>, and <strong>SLAM in challenging environments</strong>, with particular interest in camera-LiDAR calibration and visual/LiDAR-inertial estimation for intelligent robotic systems. Previously, I was a research intern at AGIBOT’s General Algorithm Department in Shanghai (May–November 2025) and at the 716 Research Institute of China Shipbuilding Industry Corporation in Lianyungang (June–September 2024).</p>
+  <p>I am a Ph.D. student in Remote Sensing Science and Technology at Wuhan University, where I received my bachelor's degree in Photogrammetry and Remote Sensing in 2024. My work connects 3D perception with autonomous robotics, drawing on my background in geometric estimation and multi-sensor systems. Previously, I was a research intern at AGIBOT in Shanghai and the 716 Research Institute of China Shipbuilding Industry Corporation in Lianyungang, working on robotic localization and multi-sensor calibration.</p>
+
+research_intro: >-
+  <p>My research focuses on <strong>reliable perception and autonomous navigation</strong> in challenging real-world environments. I develop methods for <strong>multi-sensor calibration and fusion</strong>, <strong>robust SLAM</strong>, and <strong>high-fidelity 3D mapping</strong>, with an emphasis on combining camera, LiDAR, and inertial measurements under degraded sensing conditions. My recent work also explores <strong>vision-language navigation</strong>, connecting geometric maps with language-guided reasoning to support robot navigation.</p>
 
 portrait_url: /images/homepage-portrait.jpg
 portrait_caption: Zhiyu Zhou

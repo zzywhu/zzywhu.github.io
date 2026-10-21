@@ -15,21 +15,25 @@ title: Homepage
             <a href="{{ '/files/resume-zh_CN.pdf' | relative_url }}">中文简历</a>
         </nav>
     </div>
-    <img class="portrait" src="{{ profile.portrait_url | relative_url }}" alt="{{ profile.portrait_caption | escape }}" width="160" height="160">
+    <img class="portrait" src="{{ profile.portrait_url | relative_url }}" alt="{{ profile.portrait_caption | escape }}" width="180" height="180">
 </header>
 {% if site.data.display.homepage.show_news %}
 <section id="news">
     <h2>News</h2>
-    <ul class="news-list">
+    <ul class="news-list" tabindex="0" aria-label="Recent news, scroll for more">
         {% assign news = site.news | sort: 'date' | reverse %}
         {% for item in news limit:site.data.display.homepage.num_news %}
-        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><span class="news-icon" aria-hidden="true">{{ item.icon | default: '📌' }}</span><div>{{ item.title | markdownify }}</div></li>
+        <li>
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>
+            <div class="news-content"><span class="news-icon" aria-hidden="true">{{ item.icon | default: '📌' }}</span><div>{{ item.title | markdownify }}</div></div>
+        </li>
         {% endfor %}
     </ul>
 </section>
 {% endif %}
 <section id="research">
     <div class="section-heading"><h2>Research</h2><a href="{{ profile.gscholar }}">Google Scholar ↗</a></div>
+    <div class="research-intro">{{ profile.research_intro }}</div>
     <div class="research-tabs" role="tablist" aria-label="Research outputs">
         <button id="tab-publications" role="tab" aria-selected="true" aria-controls="panel-publications" tabindex="0">Publications</button>
         <button id="tab-patents" role="tab" aria-selected="false" aria-controls="panel-patents" tabindex="-1">Patents</button>
