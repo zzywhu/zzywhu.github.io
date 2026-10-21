@@ -38,6 +38,7 @@ title: Homepage
         <button id="tab-publications" role="tab" aria-selected="true" aria-controls="panel-publications" tabindex="0">Publications</button>
         <button id="tab-patents" role="tab" aria-selected="false" aria-controls="panel-patents" tabindex="-1">Patents</button>
         <button id="tab-talks" role="tab" aria-selected="false" aria-controls="panel-talks" tabindex="-1">Talks & Presentations</button>
+        {% if profile.awards %}<button id="tab-awards" role="tab" aria-selected="false" aria-controls="panel-awards" tabindex="-1">Honors & Awards</button>{% endif %}
     </div>
     <div id="panel-publications" role="tabpanel" aria-labelledby="tab-publications">
         <p class="output-link"><a href="{{ '/publications' | relative_url }}">All publications →</a></p>
@@ -55,11 +56,10 @@ title: Homepage
             <li><a href="{{ '/talks/iros24.png' | relative_url }}">IROS 2024 oral presentation</a></li>
         </ul>
     </div>
+    {% if profile.awards %}
+    <div id="panel-awards" role="tabpanel" aria-labelledby="tab-awards">
+        <ul class="timeline">{% for item in profile.awards %}<li><div>{{ item.name }}</div><span>{{ item.date }}</span></li>{% endfor %}</ul>
+    </div>
+    {% endif %}
 </section>
 <script src="{{ '/assets/js/research-tabs.js' | relative_url }}" defer></script>
-{% if profile.awards %}
-<section id="awards">
-    <h2>Honors & Awards</h2>
-    <ul class="timeline">{% for item in profile.awards %}<li><div>{{ item.name }}</div><span>{{ item.date }}</span></li>{% endfor %}</ul>
-</section>
-{% endif %}
