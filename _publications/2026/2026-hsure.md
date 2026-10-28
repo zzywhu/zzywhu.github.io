@@ -1,6 +1,7 @@
 ---
 title: "HSURE: Hierarchical Safety-Aware Exploration Guided by Unknown Regions Using Dynamic Sparse Graphs"
 date: 2026-01-01 00:00:00 +0800
+research_area: embodied
 selected: false
 pub: "IEEE International Conference on Control, Automation and Systems (ICCA)"
 pub_date: "2026"

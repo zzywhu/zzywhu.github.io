@@ -1,0 +1,16 @@
+- id: slam
+  label: SLAM
+  title: SLAM & State Estimation
+  description: I develop robust visual and LiDAR-inertial estimation methods for reliable robot localization in degraded and geometrically challenging environments.
+- id: calibration
+  label: Calibration
+  title: Multi-Sensor Calibration
+  description: I design accurate and automated calibration methods to align cameras and LiDAR for consistent multi-modal perception.
+- id: perception
+  label: 3D Perception
+  title: 3D Mapping & Perception
+  description: I combine geometric and visual information to build high-fidelity 3D maps and improve scene understanding.
+- id: embodied
+  label: Embodied Robotics
+  title: Embodied Robotics
+  description: I explore map-guided vision-language navigation, autonomous exploration, and aerial robotic systems that connect perception with action.

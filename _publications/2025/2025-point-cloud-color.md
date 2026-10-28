@@ -1,6 +1,7 @@
 ---
 title: "Enhancing the Utilization of Color Information in Point Cloud Semantic Segmentation"
 date: 2025-01-01 00:00:00 +0800
+research_area: perception
 selected: false
 pub: "IEEE International Conference on Robotics and Automation (ICRA)"
 pub_date: "2025"

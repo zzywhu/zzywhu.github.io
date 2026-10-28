@@ -1,6 +1,7 @@
 ---
 title: "Extrinsic Calibration of LiDAR and Camera via Intensity-Aware Deep Line Registration"
 date: 2025-01-01 00:00:00 +0800
+research_area: calibration
 selected: false
 pub: "Electronics Letters"
 pub_date: "2025"

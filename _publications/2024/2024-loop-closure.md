@@ -1,6 +1,7 @@
 ---
 title: "Accurate and Efficient Loop Closure Detection With Deep Binary Image Descriptor and Augmented Point Cloud Registration"
 date: 2024-01-01 00:00:00 +0800
+research_area: slam
 selected: false
 pub: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 pub_date: "2024"

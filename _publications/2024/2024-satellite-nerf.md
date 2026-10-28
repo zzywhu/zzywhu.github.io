@@ -1,6 +1,7 @@
 ---
 title: "Neural Radiance Fields for Multi-View Satellite Photogrammetry Leveraging Intrinsic Decomposition"
 date: 2024-01-01 00:00:00 +0800
+research_area: perception
 selected: false
 pub: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
 pub_date: "2024"

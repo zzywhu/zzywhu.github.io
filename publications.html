@@ -3,10 +3,5 @@ layout: default
 title: Publications
 navbar_title: Publications
 ---
-{% assign years = site.publications | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
-{% for year in years %}
-<section id="year-{{ year.name }}">
-    <h2>{{ year.name }}</h2>
-    {% for item in year.items %}{% include widgets/publication_item.html item=item %}{% endfor %}
-</section>
-{% endfor %}
+{% include publication_list.html id='publications' %}
+<script src="{{ '/assets/js/publication-filters.js' | relative_url }}" defer></script>

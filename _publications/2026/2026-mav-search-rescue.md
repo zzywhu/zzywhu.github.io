@@ -1,6 +1,7 @@
 ---
 title: "Design and implementation of autonomous MAV system for search and rescue: Champion solution for IMAV 2025 competition"
 date: 2026-01-01 00:00:00 +0800
+research_area: embodied
 selected: false
 pub: "Chinese Journal of Aeronautics"
 pub_date: "2026"

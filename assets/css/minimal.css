@@ -11,10 +11,12 @@ p { margin: 0 0 14px; }
 h1 { font-size: 31px; line-height: 1.25; font-weight: 400; margin: 0 0 22px; }
 h1 span { white-space: nowrap; }
 h2 { font-size: 22px; line-height: 1.3; font-weight: 400; margin: 0 0 20px; }
-h3 { font-size: 15px; line-height: 1.45; margin: 0 0 4px; font-weight: 700; }
+h3 { font-size: 17px; line-height: 1.45; margin: 0 0 6px; font-weight: 700; }
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 40px; align-items: center; margin-bottom: 30px; }
 .portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 0; }
 .profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; }
+.scholar-citations { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 12px; }
+.citation-updated { color: #777; font-size: 12px; }
 .section-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 30px 0 36px; padding-bottom: 16px; border-bottom: 1px solid #eee; font-size: 13px; }
 section { margin-bottom: 38px; scroll-margin-top: 24px; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
@@ -33,10 +35,10 @@ section { margin-bottom: 38px; scroll-margin-top: 24px; }
 .news-list p { margin: 0; }
 .research-item { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 25px; align-items: center; margin: 0 0 30px; }
 .research-media img, .research-media video { display: block; width: 100%; max-height: 240px; object-fit: contain; }
-.authors, .venue, .paper-links { font-size: 14px; line-height: 1.55; }
+.authors, .venue, .paper-links { font-size: 15px; line-height: 1.55; }
 .authors a { color: inherit; }
 .authors mark { background: none; color: #777; font-size: 11px; }
-.venue { margin: 3px 0; }
+.venue { margin: 3px 0; font-weight: 700; }
 .timeline li { display: flex; justify-content: space-between; gap: 20px; margin-bottom: 13px; font-size: 14px; }
 .timeline li > span { color: #777; white-space: nowrap; }
 .patent-list { padding-left: 20px; font-size: 14px; }
@@ -63,13 +65,18 @@ footer { border-top: 1px solid #eee; padding: 20px 0 30px; color: #888; font-siz
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 .talk { margin-bottom: 36px; }
-.talk h2 { margin-bottom: 8px; }
+.talk h3 { font-size: 18px; margin-bottom: 8px; }
 .talk img { width: 100%; max-height: 480px; object-fit: contain; }
 [aria-current="page"] { color: #202020; text-decoration: underline; }
 .research-tabs { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-bottom: 14px; }
-.research-intro { margin-bottom: 22px; }
+.research-directions { margin: 0 0 26px; padding-left: 20px; }
+.research-directions li { margin-bottom: 9px; padding-left: 3px; }
+.publication-filters { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 4px 0 24px; }
+.publication-filters button { padding: 5px 0; border: 0; border-bottom: 2px solid transparent; background: none; color: #657887; font: inherit; font-size: 14px; cursor: pointer; }
+.publication-filters button[aria-pressed="true"] { color: #1772b0; border-bottom-color: #1772b0; }
+.publication-filters button:hover { color: #1772b0; }
+.publication-filters button:focus-visible { outline: 2px solid #1772b0; outline-offset: 4px; }
 .research-tabs button { padding: 4px 0 8px; border: 0; border-bottom: 2px solid transparent; background: none; color: #657887; font: inherit; cursor: pointer; }
 .research-tabs button[aria-selected="true"] { color: #1772b0; border-bottom-color: #1772b0; }
 .research-tabs button:focus-visible { outline: 2px solid #1772b0; outline-offset: 4px; }
-.output-link { font-size: 13px; margin-bottom: 24px; }
 [hidden] { display: none !important; }

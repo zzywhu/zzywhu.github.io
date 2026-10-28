@@ -1,6 +1,7 @@
 ---
 title: "A Robust and Efficient Visual-Inertial SLAM for Vision-Degraded Environments"
 date: 2024-01-01 00:00:00 +0800
+research_area: slam
 selected: false
 pub: "IEEE International Conference on Control and Automation (ICCA)"
 pub_date: "2024"

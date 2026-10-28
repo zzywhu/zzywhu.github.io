@@ -1,6 +1,7 @@
 ---
 title: "EasyColor++: General and Robust Camera Pose Optimization for High-Fidelity Point Cloud Colorizing"
 date: 2026-09-01 00:00:00 +0800
+research_area: perception
 selected: true
 pub: "ISPRS Journal of Photogrammetry and Remote Sensing (UR)"
 pub_date: "2026"

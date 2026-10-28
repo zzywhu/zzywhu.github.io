@@ -1,6 +1,7 @@
 ---
 title: "CU-Fundamental: A Comprehensive Simulation Framework for Autonomous MAV"
 date: 2025-01-01 00:00:00 +0800
+research_area: embodied
 selected: false
 pub: "International Micro Air Vehicle Conference (IMAV)"
 pub_date: "2025"

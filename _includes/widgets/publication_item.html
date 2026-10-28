@@ -1,5 +1,7 @@
 {% assign item = include.item %}
-    <article class="research-item">
+{% assign first_author = item.authors | first | remove: '*' | remove: '#' | strip | downcase %}
+{% assign profile_name = site.data.profile.primary_name | downcase %}
+    <article class="research-item" data-publication-category="{{ item.research_area }}" data-publication-date="{{ item.date | date: '%Y-%m-%d' }}" data-first-author="{% if first_author == profile_name %}true{% else %}false{% endif %}">
         <div class="research-media">
             {% if item.video %}
             <video controls muted loop playsinline preload="metadata"{% if item.cover %} poster="{{ item.cover | relative_url }}"{% endif %} aria-label="{{ item.title | escape }}"><source src="{{ item.video | relative_url }}" type="video/mp4"></video>

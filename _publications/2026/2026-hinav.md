@@ -1,6 +1,7 @@
 ---
 title: "Hi-Nav: Hierarchical Framework for Continuous Vision-Language Navigation via Map Guidance and Waypoint Reasoning"
 date: 2026-06-01 00:00:00 +0800
+research_area: embodied
 selected: true
 pub: "European Conference on Computer Vision (ECCV)"
 pub_date: "2026"
