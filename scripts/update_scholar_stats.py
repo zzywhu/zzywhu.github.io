@@ -5,6 +5,7 @@ import json
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
@@ -67,7 +68,13 @@ def main():
     args = parser.parse_args()
     if not all(character.isalnum() or character in "_-" for character in args.scholar_id):
         parser.error("Scholar ID must contain only letters, numbers, underscores or hyphens")
-    stats = fetch_stats(args.scholar_id)
+    try:
+        stats = fetch_stats(args.scholar_id)
+    except (HTTPError, URLError, TimeoutError, ValueError) as error:
+        if args.output.exists():
+            print(f"Failed to refresh Scholar statistics ({error}); keeping existing data.")
+            return
+        raise RuntimeError("Failed to fetch Scholar statistics and no previous data exists.") from error
     temporary = args.output.with_suffix(".tmp")
     temporary.write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
     temporary.replace(args.output)
