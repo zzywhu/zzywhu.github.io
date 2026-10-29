@@ -49,10 +49,8 @@
 
     const backToTop = document.getElementById('backToTop');
     const nav = document.querySelector('.section-drip-nav');
-    const footer = document.querySelector('.mountain-footer');
     function updateScroll() {
         if (backToTop) backToTop.classList.toggle('visible', window.scrollY > 300);
-        if (nav && footer) nav.classList.toggle('is-footer-visible', footer.getBoundingClientRect().top < nav.getBoundingClientRect().bottom + 28);
     }
     if (backToTop) backToTop.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });

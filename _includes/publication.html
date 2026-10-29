@@ -2,12 +2,12 @@
 {% assign first_author = paper.authors | first | remove: '*' | remove: '#' | strip | downcase %}
 {% assign own_name = site.data.profile.primary_name | downcase %}
 <tr class="publication-row" data-date="{{ paper.date | date: '%Y-%m-%d' }}" data-first-author="{% if first_author == own_name %}true{% else %}false{% endif %}">
-  <td class="publication-media" style="padding:20px;width:35%;vertical-align:middle">
+  <td class="publication-media">
     {% if paper.video %}<video controls muted loop playsinline preload="metadata"{% if paper.cover %} poster="{{ paper.cover | relative_url }}"{% endif %} aria-label="{{ paper.title | escape }}"><source src="{{ paper.video | relative_url }}" type="video/mp4"></video>
     {% elsif paper.gif %}<img src="{{ paper.gif | relative_url }}" alt="{{ paper.title | escape }}" loading="lazy">
     {% elsif paper.cover %}<img src="{{ paper.cover | relative_url }}" alt="{{ paper.title | escape }}" loading="lazy">{% endif %}
   </td>
-  <td class="publication-details" style="padding:20px;width:65%;vertical-align:middle">
+  <td class="publication-details">
     {% assign paper_url = paper.links.Paper.url | default: paper.links.Paper %}
     <h3 class="paper-title">{% if paper_url %}<a href="{{ paper_url }}"><papertitle>{{ paper.title }}</papertitle></a>{% else %}<papertitle>{{ paper.title }}</papertitle>{% endif %}</h3>
     <div class="publication-authors-shell">

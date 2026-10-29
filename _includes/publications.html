@@ -1,4 +1,21 @@
-<table class="publications-table" style="width:100%;border:0;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  {% assign papers = site.publications | sort: 'date' | reverse %}
-  {% for paper in papers %}{% include publication.html paper=paper %}{% endfor %}
-</tbody></table>
+{% assign own_name = site.data.profile.primary_name | downcase %}
+{% for direction in site.data.research %}
+  {% assign papers = site.publications | where: 'research_area', direction.id | sort: 'date' | reverse %}
+  {% if papers.size > 0 %}
+  <section class="publication-group" aria-labelledby="publications-{{ direction.id }}">
+    <h3 class="publication-group-title" id="publications-{{ direction.id }}">{{ direction.title }}</h3>
+    <table class="publications-table"><tbody>
+      {% for priority in (1..2) %}
+        {% for paper in papers %}
+          {% assign first_author = paper.authors | first | remove: '*' | remove: '#' | strip | downcase %}
+          {% if priority == 1 and first_author == own_name %}
+            {% include publication.html paper=paper %}
+          {% elsif priority == 2 and first_author != own_name %}
+            {% include publication.html paper=paper %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </tbody></table>
+  </section>
+  {% endif %}
+{% endfor %}
