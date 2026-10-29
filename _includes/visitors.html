@@ -1,0 +1,13 @@
+{% assign visitor_globe_id = site.data.visitors.globe_id | default: '' | strip %}
+{% if visitor_globe_id != '' %}
+<br>{% include section-heading.html title="Visitors" %}<br><br>
+<div id="visitors" style="width:100%;text-align:center;padding:12px 0 24px;">
+  <div class="visitor-globe-frame" style="max-width:360px;margin-right:auto;margin-left:auto;">
+    <script src="{{ '/assets/js/vendor/jquery-1.12.4.min.js' | relative_url }}"></script>
+    <script>window.globe_jq = window.jQuery.noConflict(true);</script>
+    <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d={{ visitor_globe_id | url_encode }}"></script>
+    <noscript><p>Enable JavaScript to view visitor locations.</p></noscript>
+  </div>
+</div>
+<script src="{{ '/assets/js/visitor-globe.js' | relative_url }}" defer></script>
+{% endif %}

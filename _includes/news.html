@@ -2,6 +2,6 @@
 <table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
   {% assign news = site.news | sort: 'date' | reverse %}
   {% for item in news limit:site.data.display.homepage.num_news %}
-  <p{% if forloop.first %} class="news-first-entry"{% endif %}><span class="news-date-badge">{{ item.date | date: '%b. %Y' }}</span> {{ item.icon | default: '📌' }} {{ item.title }}</p>
+  <p class="news-item-entry{% if forloop.first %} news-first-entry{% endif %}"><span class="news-date-badge">{{ item.date | date: '%b. %Y' }}</span> <span class="news-icon" aria-hidden="true">{{ item.icon | default: '📌' }}</span> <span class="news-title">{{ item.title }}</span></p>
   {% endfor %}
 </td></tr></tbody></table>

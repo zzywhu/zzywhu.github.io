@@ -5,6 +5,7 @@
   <meta name="author" content="{{ site.data.profile.primary_name | escape }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="{{ '/stylesheet.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
   <style>
     body, * {
@@ -18,7 +19,7 @@
 <body>
   <table id="about" class="page-section" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
-      <td style="padding:0px">
+      <td class="site-content" style="padding:0px">
       {{ content }}
       </td>
     </tr>

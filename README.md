@@ -11,6 +11,7 @@ Jekyll supplies personal content: 14 publications with original links/media, fou
 - `_publications/` and `_news/`: publication and news content.
 - `_includes/` and `_layouts/default.html`: personal content rendered in upstream markup.
 - `assets/js/template.js`: upstream filtering, author expansion and back-to-top interactions.
+- `assets/css/mobile.css`: phone-only layout below 640px; desktop retains the original template design.
 - `experience/`, `images/`, `files/`, `patent/`, `talks/`, `cv_zhiyu_zhou/`: preserved personal assets and documents.
 
 ## Local preview
@@ -22,3 +23,11 @@ BUNDLE_PATH=vendor/bundle bundle exec jekyll serve
 Open http://localhost:4000. Build with `BUNDLE_PATH=vendor/bundle bundle exec jekyll build`.
 
 The pre-existing LICENSE is retained for the earlier template-derived history. The new template is credited above.
+
+## Visitor globe
+
+The optional Visitors section follows Awards and Honors and uses the [MapMyVisitors 3D Globe Widget](https://mapmyvisitors.com/). Create a widget for `https://zzywhu.github.io/` at [Add site](https://mapmyvisitors.com/add), select the globe, and copy the `d=` value from its generated `globe.js` embed code into `_data/visitors.yml` (`globe_id`). Only the public widget identifier belongs in this file; account credentials do not.
+
+The section appears once that site's identifier is configured. It shows the provider's collected visitor locations, with no invented markers or counts. New visits can be collected after the widget is published; earlier site visits are not recovered.
+
+The widget's required jQuery dependency is hosted locally in `assets/js/vendor/` and isolated as `window.globe_jq`; the rest of the site uses vanilla JavaScript. `assets/js/visitor-globe.js` scales the provider's fixed-size globe when the viewport changes.
