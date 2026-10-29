@@ -1,20 +1,21 @@
 # Zhiyu Zhou’s academic homepage
 
-A minimal Jekyll site hosted on GitHub Pages. No Node.js build or frontend framework is required.
+Rebuilt from [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template), upstream commit 3e688b9cdb8928aa90ce2469b932cd4661723f97. The original stylesheet, profile table, SVG contact icons, publication cards, custom cursors, and mountain footer replace the previous template. Jekyll supplies personal content from the existing data files.
 
-## Content
+## Content and design
 
-- `_data/profile.yml`: biography, contact details, education, experience and awards.
-- `_data/research.yml`: four research directions, their introductory sentences and publication filter labels.
-- `_publications/`: publication metadata, images and links; `research_area` assigns a paper to `slam`, `calibration`, `perception` or `embodied`.
-- `_news/`: dated news entries.
-- `_includes/patent_list.html`: shared patent list.
-- `talks.html`: presentations.
-- `assets/css/minimal.css`: responsive site styles.
-- `assets/js/research-tabs.js`: publication, patent and talk tabs.
-- `assets/js/publication-filters.js`: research-area filters; All shows newest first, while each area puts first-author papers first and sorts each authorship group newest first.
-- `assets/js/scholar-citations.js`: loads the latest citation count from the `google-scholar-stats` branch, without rebuilding the site.
-- `cv_zhiyu_zhou/`: retained LaTeX résumé sources.
+- _data/profile.yml: biography, contact details and honors.
+- _data/research.yml: four research directions and their descriptions.
+- _publications/: publication metadata, covers and links.
+- _news/: news entries and icons.
+- _includes/: the new template’s data-driven sections.
+- stylesheet.css: original upstream stylesheet.
+- template-components.css: white publication cards and toast styles adapted from the upstream HTML.
+- custom.css: responsive layout and personal-content integration.
+- assets/js/site.js: author expansion, navigation and biography copy.
+- assets/js/scholar-citations.js: latest available Scholar statistics.
+- images/icon/ and images/experience/: original template cursor and landscape assets.
+- cv_zhiyu_zhou/, files/, patent/, talks/: retained personal documents.
 
 ## Local preview
 
@@ -27,7 +28,7 @@ bundle exec jekyll serve
 Open http://localhost:4000. To build only, run `bundle exec jekyll build`.
 Docker users can run `docker compose up --build`.
 
-The original template is [academic-homepage](https://github.com/luost26/academic-homepage). See `LICENSE`.
+The pre-existing LICENSE is retained for the earlier template-derived history. The new template is credited in the footer.
 
 ## Citation updates
 

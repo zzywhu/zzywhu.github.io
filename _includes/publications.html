@@ -1,0 +1,4 @@
+<table class="publications-table" style="width:100%;border:0;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  {% assign papers = site.publications | sort: 'date' | reverse %}
+  {% for paper in papers %}{% include publication.html paper=paper %}{% endfor %}
+</tbody></table>
