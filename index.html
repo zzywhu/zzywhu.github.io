@@ -3,71 +3,22 @@ layout: default
 title: Homepage
 ---
 {% assign profile = site.data.profile %}
-        <table id="about" class="profile-table page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:68%;vertical-align:middle">
-
-              <h1 class="profile-name">{{ profile.primary_name }} &nbsp;|&nbsp; <span lang="zh">{{ profile.secondary_name }}</span></h1>
-              <div>{{ profile.short_bio }}</div>
-              <p>Feel free to contact me at <a href="mailto:{{ profile.email }}">{{ profile.email }}</a> for discussions and collaboration.</p>
-              <div class="profile-divider"></div>
-<p class="contact-links"><span class="contact-line"><a href="{{ '/files/resume-zh_CN.pdf' | relative_url }}" title="Chinese CV">
-                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
-                    <path d="M14 2v6h6"></path>
-                    <path d="M8 13h8"></path>
-                    <path d="M8 17h5"></path>
-                  </svg>
-                  中文简历
-                </a> <span aria-hidden="true">/</span> <a href="{{ profile.gscholar }}" title="Google Scholar profile">
-                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 3 1.5 9 12 15 22.5 9 12 3Z"></path>
-                    <path d="M5 12.1v4.2c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-4.2l-7 4-7-4Z"></path>
-                  </svg>
-                  Google Scholar
-                </a> <span aria-hidden="true">/</span> <a href="https://github.com/{{ profile.github }}" title="GitHub profile">
-                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 .5C5.7.5.6 5.6.6 11.9c0 5 3.3 9.3 7.9 10.8.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.5 2.7 3.2 1.9.1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.9 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.8C23.4 5.6 18.3.5 12 .5Z"></path>
-                  </svg>
-                  Github
-                </a></span></p>
-            </td>
-            <td style="padding:2.5%;width:32%;max-width:32%">
-              <img style="width:85%;max-width:85%;border-radius:0;" class="profile-portrait" alt="{{ profile.portrait_caption | escape }}" src="{{ profile.portrait_url | relative_url }}" width="210" height="210">
-            </td>
-          </tr>
-        </tbody></table>
-
-{% include navigation.html %}
-{% if site.data.display.homepage.show_news %}
-<section id="news" class="page-section content-section">
-  <h2 class="section-title">News</h2>
-  {% include news.html %}
-</section>
-{% endif %}
-<section id="research" class="page-section content-section">
-  <h2 class="section-title">Research</h2>
-  <ul class="research-directions">{% for area in site.data.research %}<li><strong>{{ area.title }}:</strong> {{ area.description }}</li>{% endfor %}</ul>
-</section>
-<section id="experience" class="page-section content-section">
-  <h2 class="section-title">Experience</h2>
-  {% include experience.html %}
-</section>
-<section id="publications" class="page-section content-section publications-section">
-  <h2 class="section-title">Publications</h2>
-  {% include publications.html %}
-</section>
-<section id="patents" class="page-section content-section">
-  <h2 class="section-title">Patents</h2>
+{% include profile.html %}
+{% if site.data.display.homepage.show_news %}{% include news.html %}{% endif %}
+<table id="research" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
+  <br><heading>Research</heading><br><br>
+  <ul>{% for area in site.data.research %}<li><strong>{{ area.title }}:</strong> {{ area.description }}</li>{% endfor %}</ul>
+</td></tr></tbody></table>
+{% include publications.html %}
+{% include experience.html %}
+<table id="patents" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
+  <br><heading>Patents</heading><br><br>
   {% include patents.html %}
-</section>
-<section id="talks" class="page-section content-section">
-  <h2 class="section-title">Talks & Presentations</h2>
-  {% include talks.html %}
-</section>
+</td></tr></tbody></table>
+{% include talks.html %}
 {% if profile.awards %}
-<section id="awards" class="page-section content-section">
-  <h2 class="section-title">Awards and Honors</h2>
-  <ul class="award-list">{% for item in profile.awards %}<li><span class="award-year">{{ item.date }}</span><span>{{ item.name }}</span></li>{% endfor %}</ul>
-</section>
+<table id="awards" class="page-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
+  <br><heading>Awards and Honors</heading><br><br>
+  {% for item in profile.awards %}<p>{{ item.date }}: {{ item.name }}</p>{% endfor %}
+</td></tr></tbody></table>
 {% endif %}

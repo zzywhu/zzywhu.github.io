@@ -1,8 +1,7 @@
-<div class="news-scroll" tabindex="0" aria-label="Recent news, scroll for more">
-  <ul class="news-entries">
-    {% assign news = site.news | sort: 'date' | reverse %}
-    {% for item in news limit:site.data.display.homepage.num_news %}
-    <li class="news-entry"><time class="news-date-badge" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b. %Y' }}</time><span class="news-icon" aria-hidden="true">{{ item.icon | default: '📌' }}</span><div>{{ item.title | markdownify }}</div></li>
-    {% endfor %}
-  </ul>
-</div>
+<table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
+  <heading>News</heading><br>
+  {% assign news = site.news | sort: 'date' | reverse %}
+  {% for item in news limit:site.data.display.homepage.num_news %}
+  <p{% if forloop.first %} class="news-first-entry"{% endif %}><span class="news-date-badge">{{ item.date | date: '%b. %Y' }}</span> {{ item.icon | default: '📌' }} {{ item.title }}</p>
+  {% endfor %}
+</td></tr></tbody></table>

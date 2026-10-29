@@ -1,21 +1,19 @@
 {% assign paper = include.paper %}
-{% assign first_author = paper.authors | first | remove: '*' | remove: '#' | strip | downcase %}
-{% assign own_name = site.data.profile.primary_name | downcase %}
-<tr class="publication-row" data-date="{{ paper.date | date: '%Y-%m-%d' }}" data-first-author="{% if first_author == own_name %}true{% else %}false{% endif %}">
-  <td class="publication-media">
-    {% if paper.video %}<video controls muted loop playsinline preload="metadata"{% if paper.cover %} poster="{{ paper.cover | relative_url }}"{% endif %} aria-label="{{ paper.title | escape }}"><source src="{{ paper.video | relative_url }}" type="video/mp4"></video>
-    {% elsif paper.gif %}<img src="{{ paper.gif | relative_url }}" alt="{{ paper.title | escape }}" loading="lazy">
-    {% elsif paper.cover %}<img src="{{ paper.cover | relative_url }}" alt="{{ paper.title | escape }}" loading="lazy">{% endif %}
+<tr class="publication-row" data-tags="{{ paper.research_area }}" data-date="{{ paper.date | date: '%Y-%m-%d' }}" data-first-author="{% if first_author == own_name %}true{% else %}false{% endif %}">
+  <td style="padding:20px 10px 20px 20px;width:34%;vertical-align:middle">
+    {% if paper.video %}<video width="230" style="display:block;width:100%;height:auto;" controls muted loop playsinline preload="metadata"{% if paper.cover %} poster="{{ paper.cover | relative_url }}"{% endif %} aria-label="{{ paper.title | escape }}"><source src="{{ paper.video | relative_url }}" type="video/mp4"></video>
+    {% elsif paper.gif %}<img src="{{ paper.gif | relative_url }}" width="230" style="display:block;width:100%;height:auto;" alt="{{ paper.title | escape }}" loading="lazy">
+    {% elsif paper.cover %}<img src="{{ paper.cover | relative_url }}" width="230" style="display:block;width:100%;height:auto;" alt="{{ paper.title | escape }}" loading="lazy">{% endif %}
   </td>
-  <td class="publication-details">
+  <td style="padding:20px;width:66%;vertical-align:middle">
     {% assign paper_url = paper.links.Paper.url | default: paper.links.Paper %}
-    <h3 class="paper-title">{% if paper_url %}<a href="{{ paper_url }}"><papertitle>{{ paper.title }}</papertitle></a>{% else %}<papertitle>{{ paper.title }}</papertitle>{% endif %}</h3>
-    <div class="publication-authors-shell">
-      <div class="publication-authors" id="authors-{{ paper.slug }}">{% include authors.html authors=paper.authors et_al=paper.et_al %}</div>
-      <button class="publication-authors-toggle" type="button" aria-controls="authors-{{ paper.slug }}" aria-expanded="false" aria-label="Expand author list" hidden>▶</button>
-    </div>
-    <div class="paper-links">{% for link in paper.links %}{% unless forloop.first %} / {% endunless %}{% if link[1].url %}<a href="{{ link[1].url }}">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}">{{ link[0] }}</a>{% endif %}{% endfor %}</div>
-    <p class="publication-venue">{{ paper.pub_pre }}<em><strong>{{ paper.pub }} {{ paper.pub_date }}</strong></em>{{ paper.pub_post }} {{ paper.pub_last }}</p>
-    {% if paper.abstract %}<p class="publication-abstract">{{ paper.abstract }}</p>{% endif %}
+    {% if paper_url %}<a href="{{ paper_url }}"><papertitle>{{ paper.title }}</papertitle></a>{% else %}<papertitle>{{ paper.title }}</papertitle>{% endif %}
+    <br>
+    {% include authors.html authors=paper.authors et_al=paper.et_al %}
+    <br>
+    {% for link in paper.links %}{% unless forloop.first %} / {% endunless %}{% if link[1].url %}<a href="{{ link[1].url }}">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}">{{ link[0] }}</a>{% endif %}{% endfor %}
+    <br>
+    {{ paper.pub_pre }}<em><strong>{{ paper.pub }} {{ paper.pub_date }}</strong></em>{{ paper.pub_post }} {{ paper.pub_last }}
+    {% if paper.abstract %}<p>{{ paper.abstract }}</p>{% endif %}
   </td>
 </tr>

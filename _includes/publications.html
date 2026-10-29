@@ -1,21 +1,85 @@
-{% assign own_name = site.data.profile.primary_name | downcase %}
-{% for direction in site.data.research %}
-  {% assign papers = site.publications | where: 'research_area', direction.id | sort: 'date' | reverse %}
-  {% if papers.size > 0 %}
-  <section class="publication-group" aria-labelledby="publications-{{ direction.id }}">
-    <h3 class="publication-group-title" id="publications-{{ direction.id }}">{{ direction.title }}</h3>
-    <table class="publications-table"><tbody>
-      {% for priority in (1..2) %}
-        {% for paper in papers %}
-          {% assign first_author = paper.authors | first | remove: '*' | remove: '#' | strip | downcase %}
-          {% if priority == 1 and first_author == own_name %}
-            {% include publication.html paper=paper %}
-          {% elsif priority == 2 and first_author != own_name %}
-            {% include publication.html paper=paper %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </tbody></table>
-  </section>
-  {% endif %}
-{% endfor %}
+<style>
+            .tag-filter {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 8px;
+              margin: 16px auto 0;
+              justify-content: center;
+            }
+            .tag-btn {
+              padding: 5px 14px;
+              border-radius: 20px;
+              border: 1px solid rgba(17, 17, 17, 0.18);
+              background: rgba(251, 165, 36, 0.06);
+              color: #6e3519;
+              font-size: 13px;
+              cursor: pointer;
+              transition: all 0.2s;
+            }
+            .tag-btn:hover {
+              border-color: rgba(17, 17, 17, 0.36);
+              background: rgba(251, 165, 36, 0.1);
+              color: #6e3519;
+            }
+            .tag-btn.active {
+              background: #ad7020;
+              color: #fff;
+              border-color: rgba(17, 17, 17, 0.62);
+              box-shadow: 0 2px 8px rgba(173, 112, 32, 0.22);
+            }
+            .tag-count {
+              display: inline-block;
+              background: rgba(0,0,0,0.15);
+              color: inherit;
+              font-size: 11px;
+              font-weight: bold;
+              width: 18px;
+              height: 18px;
+              line-height: 18px;
+              border-radius: 50%;
+              text-align: center;
+              margin-left: 5px;
+              vertical-align: middle;
+            }
+            .tag-btn.active .tag-count {
+              background: rgba(255, 255, 255, 0.22);
+              color: #fff;
+            }
+            .tag-btn:not(.active) .tag-count {
+              background: rgba(251, 165, 36, 0.14);
+              color: #6e3519;
+            }
+            .publications-table tr[data-tags] > td {
+              border-top: 1px solid rgba(0, 0, 0, 0.14);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+              background: #fff;
+            }
+            .publications-table tr[data-tags] > td:first-child {
+              border-left: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 8px 0 0 8px;
+            }
+            .publications-table tr[data-tags] > td:last-child {
+              border-right: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 0 8px 8px 0;
+            }
+            .publications-table tr[data-tags][style*="lightyellow"] > td {
+              background: lightyellow;
+            }
+
+</style>
+<heading>Publications</heading><br>
+<div class="tag-filter" id="tagFilter" role="group" aria-label="Filter publications by research direction">
+  <button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
+  {% for direction in site.data.research %}<button type="button" class="tag-btn" data-tag="{{ direction.id }}" aria-pressed="false">{{ direction.label }}</button>{% endfor %}
+</div>
+<table id="publications" class="publications-table page-section" style="width:100%;table-layout:fixed;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  {% assign own_name = site.data.profile.primary_name | downcase %}
+  {% assign papers = site.publications | sort: 'date' | reverse %}
+  {% for priority in (1..2) %}
+    {% for paper in papers %}
+      {% assign first_author = paper.authors | first | remove: '*' | remove: '#' | strip | downcase %}
+      {% if priority == 1 and first_author == own_name %}{% include publication.html paper=paper %}
+      {% elsif priority == 2 and first_author != own_name %}{% include publication.html paper=paper %}{% endif %}
+    {% endfor %}
+  {% endfor %}
+</tbody></table>
