@@ -26,27 +26,6 @@
     window.addEventListener('resize', updateAuthors, { passive: true });
     if (document.fonts) document.fonts.ready.then(updateAuthors);
 
-    const copyButton = document.getElementById('astronaut-btn');
-    const toast = document.getElementById('toast');
-    let toastTimer;
-    if (copyButton && navigator.clipboard) {
-        copyButton.hidden = false;
-        copyButton.addEventListener('click', async event => {
-            try {
-                await navigator.clipboard.writeText(document.querySelector('[data-biography]').innerText.trim());
-                toast.textContent = 'Biography copied';
-            } catch {
-                toast.textContent = 'Unable to copy. Please select the biography text.';
-            }
-            const rect = copyButton.getBoundingClientRect();
-            toast.style.setProperty('--toast-x', Math.min(Math.max(event.clientX || rect.left, 120), window.innerWidth - 120) + 'px');
-            toast.style.setProperty('--toast-y', Math.max(event.clientY || rect.top, 70) + 'px');
-            toast.classList.add('show');
-            clearTimeout(toastTimer);
-            toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
-        });
-    }
-
     const backToTop = document.getElementById('backToTop');
     const nav = document.querySelector('.section-drip-nav');
     function updateScroll() {

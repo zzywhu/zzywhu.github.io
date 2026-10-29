@@ -15,4 +15,3 @@ exclude:
   - docker-compose.yaml
   - vendor
   - cv_zhiyu_zhou
-  - scripts
