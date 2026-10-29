@@ -67,7 +67,7 @@
             }
 
 </style>
-<heading>Publications</heading><br>
+{% include section-heading.html title="Publications" %}<br>
 <div class="tag-filter" id="tagFilter" role="group" aria-label="Filter publications by research direction">
   <button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
   {% for direction in site.data.research %}<button type="button" class="tag-btn" data-tag="{{ direction.id }}" aria-pressed="false">{{ direction.label }}</button>{% endfor %}

@@ -1,5 +1,5 @@
+{% include section-heading.html title="News" %}<br>
 <table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody><tr><td style="padding:0px;width:100%;vertical-align:middle">
-  <heading>News</heading><br>
   {% assign news = site.news | sort: 'date' | reverse %}
   {% for item in news limit:site.data.display.homepage.num_news %}
   <p{% if forloop.first %} class="news-first-entry"{% endif %}><span class="news-date-badge">{{ item.date | date: '%b. %Y' }}</span> {{ item.icon | default: '📌' }} {{ item.title }}</p>

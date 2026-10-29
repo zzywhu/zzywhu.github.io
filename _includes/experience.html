@@ -1,7 +1,7 @@
 {% assign internship = site.data.profile.experience | slice: 0, 1 %}
 {% assign experiences = internship | concat: site.data.profile.education %}
+<br>{% include section-heading.html title="Experience" %}<br>
 <table id="experience" class="page-section" width="100%" align="center" border="0" cellpadding="10"><tbody>
-  <tr><td colspan="2"><br><heading>Experience</heading><br></td></tr>
   {% for item in experiences %}<tr>
     <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle"><img src="{{ item.logo | relative_url }}" width="100" alt="{{ item.name | escape }} logo" loading="lazy"></td>
     <td width="90%" valign="center"><strong>{{ item.name }}</strong><br>{{ item.date }}<br><strong>{{ item.position }}</strong>{% if item.description %}<br>{{ item.description }}{% endif %}</td>
