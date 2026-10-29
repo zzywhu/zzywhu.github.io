@@ -53,6 +53,10 @@ title: Homepage
   <h2 class="section-title">Research</h2>
   <ul class="research-directions">{% for area in site.data.research %}<li><strong>{{ area.title }}:</strong> {{ area.description }}</li>{% endfor %}</ul>
 </section>
+<section id="experience" class="page-section content-section">
+  <h2 class="section-title">Experience</h2>
+  {% include experience.html %}
+</section>
 <section id="publications" class="page-section content-section publications-section">
   <h2 class="section-title">Publications</h2>
   {% include publications.html %}

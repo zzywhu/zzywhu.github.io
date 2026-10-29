@@ -26,17 +26,19 @@ portrait_caption: Zhiyu Zhou
 
 education:
 - name: Wuhan University
-  logo: /whu.jpeg
-  position: Ph.D., Robotics.
+  logo: /experience/whu.jpeg
+  position: Ph.D. student in Remote Sensing Science and Technology
   date: 2024 - present
 - name: Wuhan University
-  logo: /whu.jpeg
-  position: B.E. of Engineering.
+  logo: /experience/whu.jpeg
+  position: B.Eng. in Photogrammetry and Remote Sensing
   date: 2020 - 2024
 
 experience:
 - name: AGIBOT (智元机器人 全域算法部)
+  logo: /experience/Agibot.png
   position: Research Intern, Shanghai
+  description: Robotic localization and multi-sensor calibration.
   date: 2025.05 - 2025.11
 - name: 中船重工716研究所
   position: Research Intern, Lianyungang

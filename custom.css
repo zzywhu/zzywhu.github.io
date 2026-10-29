@@ -29,6 +29,15 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 2px s
 .news-entry p { margin: 0 !important; }
 .research-directions { margin: 0; padding-left: 19px; }
 .research-directions li { margin-bottom: 10px; padding-left: 2px; }
+.experience-list { margin: 0; padding: 0; list-style: none; }
+.experience-entry { display: grid; grid-template-columns: 110px minmax(0, 1fr); align-items: center; gap: 24px; padding: 18px 0; }
+.experience-entry + .experience-entry { border-top: 1px solid #eee; }
+.experience-logo { display: block; width: 110px; height: 76px; object-fit: contain; }
+.experience-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+.experience-heading h3 { margin: 0; font-size: 17px; }
+.experience-date { color: #777; font-size: 13px; white-space: nowrap; }
+.experience-details p { margin: 3px 0 0; }
+.experience-description { color: #666; }
 .section-drip-nav { right: auto; left: calc(50% + 430px); }
 .section-drip-nav a[aria-current="location"]::before { border-color: #ad7020; background: #fba524; }
 .section-drip-nav a[aria-current="location"] span { color: #6e3519; opacity: 1; }
@@ -95,6 +104,8 @@ papertitle { font-size: 17px; }
   .publications-table { border-spacing: 0 !important; }
   .news-entry { grid-template-columns: 76px 20px minmax(0, 1fr); gap: 5px; }
   .award-list li { gap: 12px; }
+  .experience-entry { grid-template-columns: 72px minmax(0, 1fr); gap: 16px; }
+  .experience-logo { width: 72px; height: 64px; }
   .talk-entry { grid-template-columns: minmax(0, 30%) minmax(0, 1fr); gap: 14px; padding: 14px; }
   .talk-entry h3 { font-size: 16px; }
 }

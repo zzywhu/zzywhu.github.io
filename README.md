@@ -5,6 +5,7 @@ Rebuilt from [w-r-s/academic-homepage-template](https://github.com/w-r-s/academi
 ## Content and design
 
 - _data/profile.yml: biography, contact details and honors.
+- Experience lists the AGIBOT internship, Wuhan University Ph.D. studies and undergraduate studies, using logos in experience/.
 - _data/research.yml: four research directions and their descriptions.
 - _publications/: publication metadata, covers and links.
 - Publications are grouped by the four research directions, with first-author papers first and newest papers first within each authorship group. Demo media occupy 44% of desktop cards; talks use compact images beside their descriptions.

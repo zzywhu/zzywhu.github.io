@@ -1,0 +1,17 @@
+{% assign internship = site.data.profile.experience | slice: 0, 1 %}
+{% assign experiences = internship | concat: site.data.profile.education %}
+<ul class="experience-list">
+  {% for item in experiences %}
+  <li class="experience-entry">
+    <img class="experience-logo" src="{{ item.logo | relative_url }}" alt="{{ item.name | escape }} logo" loading="lazy">
+    <div class="experience-details">
+      <div class="experience-heading">
+        <h3>{{ item.name }}</h3>
+        <span class="experience-date">{{ item.date }}</span>
+      </div>
+      <p>{{ item.position }}</p>
+      {% if item.description %}<p class="experience-description">{{ item.description }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
